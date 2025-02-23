@@ -22,3 +22,16 @@ sh scripts/extract_features/extract_features_65_15.sh
 ```
 sh scripts/visual_info_transfer/fsd_65_15_train_coco_generator.sh
 ```
+
+
+## Citation
+```
+@article{nie25unifa,
+  author       = {Hui Nie and Ruiping Wang and Xilin Chen},
+  title        = {UniFa: A unified feature hallucination framework for any-shot object detection},
+  journal      = {Pattern Recognition Letters},
+  volume       = {189},
+  pages        = {207--213},
+  year         = {2025},
+}
+```
