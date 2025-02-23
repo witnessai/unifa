@@ -1,0 +1,244 @@
+Random Seed=1780
+Random Seed=4864
+Random Seed=5717
+Random Seed=8601
+Random Seed=7004
+Random Seed=5160
+Random Seed=8338
+Random Seed=9375
+Random Seed=448
+Random Seed=4344
+Random Seed=6166
+Random Seed=1286
+Random Seed=4924
+Random Seed=372
+Random Seed=5621
+Random Seed=5463
+Random Seed=1036
+Random Seed=2029
+Random Seed=6670
+Random Seed=9631
+Random Seed=7470
+Random Seed=6078
+Random Seed=9141
+Random Seed=3677
+Random Seed=6129
+Random Seed=490
+Random Seed=6598
+Random Seed=5833
+Random Seed=2600
+Random Seed=9150
+Random Seed=6737
+Random Seed=7567
+Random Seed=9748
+Random Seed=213
+Random Seed=5700
+Random Seed=7855
+Random Seed=1072
+Random Seed=1980
+[0/300] Wasserstein_dist: 400501.4375, vae_loss:566396.8750
+Random Seed=2777
+[0/300] Wasserstein_dist: 430118.1875, vae_loss:1890960.5000
+Random Seed=1114
+[0/300] Wasserstein_dist: 360055.1250, vae_loss:8310349.5000
+Random Seed=439
+[0/300] Wasserstein_dist: 293155.2500, vae_loss:1683428.2500
+acc_all=0.0054, acc_base=0.0113, acc_novel=0.0000
+Random Seed=7902
+[0/300] Wasserstein_dist: 197442.3750, vae_loss:31130536.0000
+acc_all=0.0054, acc_base=0.0102, acc_novel=0.0010
+[1/300] Wasserstein_dist: 1314577.0000, vae_loss:423980.7500
+acc_all=0.0129, acc_base=0.0062, acc_novel=0.0188
+[2/300] Wasserstein_dist: 2252358.0000, vae_loss:409112.3750
+acc_all=0.0086, acc_base=0.0181, acc_novel=0.0000
+[3/300] Wasserstein_dist: 5890683.0000, vae_loss:381319.5000
+acc_all=0.0078, acc_base=0.0153, acc_novel=0.0010
+[4/300] Wasserstein_dist: 6576210.0000, vae_loss:499498.2188
+acc_all=0.0059, acc_base=0.0113, acc_novel=0.0010
+[5/300] Wasserstein_dist: 11492938.0000, vae_loss:345893.8438
+acc_all=0.0067, acc_base=0.0130, acc_novel=0.0010
+[6/300] Wasserstein_dist: 15122460.0000, vae_loss:360558.2500
+acc_all=0.0048, acc_base=0.0085, acc_novel=0.0015
+[7/300] Wasserstein_dist: 17540272.0000, vae_loss:359021.5938
+acc_all=0.0048, acc_base=0.0057, acc_novel=0.0041
+[8/300] Wasserstein_dist: 18271672.0000, vae_loss:3580876.5000
+acc_all=0.0059, acc_base=0.0125, acc_novel=0.0000
+[9/300] Wasserstein_dist: 33459096.0000, vae_loss:351265.7500
+acc_all=0.0054, acc_base=0.0108, acc_novel=0.0005
+[10/300] Wasserstein_dist: 38493616.0000, vae_loss:411328.2812
+acc_all=0.0088, acc_base=0.0187, acc_novel=0.0000
+[11/300] Wasserstein_dist: 38785952.0000, vae_loss:357430.4688
+acc_all=0.0070, acc_base=0.0136, acc_novel=0.0010
+[12/300] Wasserstein_dist: 46383472.0000, vae_loss:351607.4062
+acc_all=0.0064, acc_base=0.0096, acc_novel=0.0036
+[13/300] Wasserstein_dist: 38125584.0000, vae_loss:362685.0625
+acc_all=0.0051, acc_base=0.0085, acc_novel=0.0020
+[14/300] Wasserstein_dist: 66956928.0000, vae_loss:388160.6250
+acc_all=0.0046, acc_base=0.0079, acc_novel=0.0015
+[15/300] Wasserstein_dist: 65195888.0000, vae_loss:357309.2500
+acc_all=0.0083, acc_base=0.0153, acc_novel=0.0020
+[16/300] Wasserstein_dist: 77560080.0000, vae_loss:388950.9062
+acc_all=0.0059, acc_base=0.0125, acc_novel=0.0000
+[17/300] Wasserstein_dist: 87751328.0000, vae_loss:361728.6875
+acc_all=0.0091, acc_base=0.0045, acc_novel=0.0132
+[18/300] Wasserstein_dist: 113989856.0000, vae_loss:365801.7188
+acc_all=0.0059, acc_base=0.0125, acc_novel=0.0000
+Random Seed=6992
+[0/300] Wasserstein_dist: 325386.0625, vae_loss:437290.2500
+acc_all=0.0094, acc_base=0.0028, acc_novel=0.0153
+[1/300] Wasserstein_dist: 1433523.5000, vae_loss:388567.4375
+acc_all=0.0080, acc_base=0.0045, acc_novel=0.0112
+[2/300] Wasserstein_dist: 2553962.5000, vae_loss:382466.2812
+acc_all=0.0070, acc_base=0.0142, acc_novel=0.0005
+[3/300] Wasserstein_dist: 2503833.0000, vae_loss:358250.1562
+acc_all=0.0070, acc_base=0.0142, acc_novel=0.0005
+[4/300] Wasserstein_dist: 5960088.0000, vae_loss:341528.3438
+acc_all=0.0062, acc_base=0.0130, acc_novel=0.0000
+[5/300] Wasserstein_dist: 8417832.0000, vae_loss:518683.6875
+acc_all=0.0067, acc_base=0.0136, acc_novel=0.0005
+[6/300] Wasserstein_dist: 11960438.0000, vae_loss:426221.1875
+acc_all=0.0067, acc_base=0.0130, acc_novel=0.0010
+[7/300] Wasserstein_dist: 16403468.0000, vae_loss:464585.3750
+acc_all=0.0064, acc_base=0.0136, acc_novel=0.0000
+[8/300] Wasserstein_dist: 21012916.0000, vae_loss:583432.0000
+acc_all=0.0067, acc_base=0.0130, acc_novel=0.0010
+[9/300] Wasserstein_dist: 25526644.0000, vae_loss:349318.9375
+acc_all=0.0046, acc_base=0.0096, acc_novel=0.0000
+[10/300] Wasserstein_dist: 34518712.0000, vae_loss:367967.7188
+acc_all=0.0062, acc_base=0.0125, acc_novel=0.0005
+[11/300] Wasserstein_dist: 43784496.0000, vae_loss:386452.0312
+acc_all=0.0067, acc_base=0.0142, acc_novel=0.0000
+[12/300] Wasserstein_dist: 33737664.0000, vae_loss:368119.6562
+acc_all=0.0075, acc_base=0.0125, acc_novel=0.0031
+[13/300] Wasserstein_dist: 49786344.0000, vae_loss:402123.8125
+acc_all=0.0062, acc_base=0.0011, acc_novel=0.0107
+[14/300] Wasserstein_dist: 55387152.0000, vae_loss:369112.9062
+acc_all=0.0064, acc_base=0.0125, acc_novel=0.0010
+[15/300] Wasserstein_dist: 48984624.0000, vae_loss:361264.2812
+acc_all=0.0075, acc_base=0.0125, acc_novel=0.0031
+[16/300] Wasserstein_dist: 65704384.0000, vae_loss:390525.1250
+acc_all=0.0080, acc_base=0.0074, acc_novel=0.0086
+[17/300] Wasserstein_dist: 72748992.0000, vae_loss:344465.6562
+acc_all=0.0064, acc_base=0.0130, acc_novel=0.0005
+[18/300] Wasserstein_dist: 64610640.0000, vae_loss:358331.5938
+acc_all=0.0064, acc_base=0.0125, acc_novel=0.0010
+[19/300] Wasserstein_dist: 100988256.0000, vae_loss:359668.9688
+acc_all=0.0054, acc_base=0.0113, acc_novel=0.0000
+[20/300] Wasserstein_dist: 82915136.0000, vae_loss:371357.4062
+acc_all=0.0086, acc_base=0.0023, acc_novel=0.0142
+[21/300] Wasserstein_dist: 98365088.0000, vae_loss:482150.1562
+acc_all=0.0078, acc_base=0.0159, acc_novel=0.0005
+[22/300] Wasserstein_dist: 163055904.0000, vae_loss:447305.8125
+acc_all=0.0070, acc_base=0.0119, acc_novel=0.0025
+[23/300] Wasserstein_dist: 168701600.0000, vae_loss:367567.1250
+acc_all=0.0078, acc_base=0.0040, acc_novel=0.0112
+[24/300] Wasserstein_dist: 177825216.0000, vae_loss:475803.7812
+acc_all=0.0083, acc_base=0.0164, acc_novel=0.0010
+[25/300] Wasserstein_dist: 197943680.0000, vae_loss:347953.2812
+acc_all=0.0062, acc_base=0.0119, acc_novel=0.0010
+[26/300] Wasserstein_dist: 160408448.0000, vae_loss:350314.2812
+acc_all=0.0070, acc_base=0.0023, acc_novel=0.0112
+[27/300] Wasserstein_dist: 171877184.0000, vae_loss:386721.5000
+acc_all=0.0056, acc_base=0.0000, acc_novel=0.0107
+[28/300] Wasserstein_dist: 265246272.0000, vae_loss:370169.6875
+acc_all=0.0067, acc_base=0.0125, acc_novel=0.0015
+[29/300] Wasserstein_dist: 286996480.0000, vae_loss:382479.2500
+acc_all=0.0080, acc_base=0.0170, acc_novel=0.0000
+[30/300] Wasserstein_dist: 271315648.0000, vae_loss:369478.7188
+acc_all=0.0075, acc_base=0.0068, acc_novel=0.0081
+[31/300] Wasserstein_dist: 301433536.0000, vae_loss:364978.2188
+acc_all=0.0083, acc_base=0.0176, acc_novel=0.0000
+[32/300] Wasserstein_dist: 287807104.0000, vae_loss:361839.7812
+acc_all=0.0067, acc_base=0.0136, acc_novel=0.0005
+[33/300] Wasserstein_dist: 257919296.0000, vae_loss:417618.0000
+acc_all=0.0062, acc_base=0.0130, acc_novel=0.0000
+[34/300] Wasserstein_dist: 382504064.0000, vae_loss:349175.3125
+acc_all=0.0056, acc_base=0.0119, acc_novel=0.0000
+[35/300] Wasserstein_dist: 342936576.0000, vae_loss:349526.0000
+acc_all=0.0072, acc_base=0.0051, acc_novel=0.0092
+Random Seed=784
+Random Seed=2964
+Random Seed=1117
+Random Seed=2713
+Random Seed=2344
+Random Seed=8759
+Random Seed=3515
+Random Seed=1985
+Random Seed=7999
+Random Seed=4624
+Random Seed=4770
+Random Seed=860
+Random Seed=4535
+Random Seed=114
+[0/300] Wasserstein_dist: 236440.5625, vae_loss:536575.4375
+acc_all=0.0086, acc_base=0.0142, acc_novel=0.0036
+[1/300] Wasserstein_dist: 1638223.5000, vae_loss:359403.5000
+acc_all=0.0067, acc_base=0.0125, acc_novel=0.0015
+[2/300] Wasserstein_dist: 2590677.0000, vae_loss:388613.6250
+acc_all=0.0064, acc_base=0.0130, acc_novel=0.0005
+[3/300] Wasserstein_dist: 6070003.0000, vae_loss:417470.0938
+acc_all=0.0070, acc_base=0.0142, acc_novel=0.0005
+[4/300] Wasserstein_dist: 7487334.0000, vae_loss:400581.5625
+acc_all=0.0067, acc_base=0.0096, acc_novel=0.0041
+Random Seed=8116
+[0/300] Wasserstein_dist: 310308.6875, vae_loss:403866.5625
+acc_all=0.0062, acc_base=0.0130, acc_novel=0.0000
+[1/300] Wasserstein_dist: 1023844.7500, vae_loss:411941.8750
+acc_all=0.0064, acc_base=0.0096, acc_novel=0.0036
+[2/300] Wasserstein_dist: 2856507.5000, vae_loss:374425.2500
+acc_all=0.0054, acc_base=0.0113, acc_novel=0.0000
+[3/300] Wasserstein_dist: 4318253.0000, vae_loss:387229.9375
+acc_all=0.0054, acc_base=0.0113, acc_novel=0.0000
+[4/300] Wasserstein_dist: 8455197.0000, vae_loss:424902.0312
+acc_all=0.0072, acc_base=0.0147, acc_novel=0.0005
+[5/300] Wasserstein_dist: 10959572.0000, vae_loss:358626.9688
+acc_all=0.0083, acc_base=0.0068, acc_novel=0.0097
+[6/300] Wasserstein_dist: 14364402.0000, vae_loss:377290.0625
+acc_all=0.0086, acc_base=0.0181, acc_novel=0.0000
+[7/300] Wasserstein_dist: 18388184.0000, vae_loss:422008.7500
+acc_all=0.0072, acc_base=0.0153, acc_novel=0.0000
+[8/300] Wasserstein_dist: 14139604.0000, vae_loss:359858.4375
+acc_all=0.0062, acc_base=0.0119, acc_novel=0.0010
+[9/300] Wasserstein_dist: 28873524.0000, vae_loss:379059.0000
+acc_all=0.0105, acc_base=0.0159, acc_novel=0.0056
+[10/300] Wasserstein_dist: 36533832.0000, vae_loss:400248.4688
+acc_all=0.0072, acc_base=0.0142, acc_novel=0.0010
+[11/300] Wasserstein_dist: 37600128.0000, vae_loss:540383.6250
+acc_all=0.0062, acc_base=0.0119, acc_novel=0.0010
+[12/300] Wasserstein_dist: 48357608.0000, vae_loss:356540.3438
+acc_all=0.0072, acc_base=0.0142, acc_novel=0.0010
+[13/300] Wasserstein_dist: 64514408.0000, vae_loss:409016.6562
+acc_all=0.0062, acc_base=0.0113, acc_novel=0.0015
+[14/300] Wasserstein_dist: 61828512.0000, vae_loss:359871.4375
+acc_all=0.0088, acc_base=0.0176, acc_novel=0.0010
+[15/300] Wasserstein_dist: 91572032.0000, vae_loss:363568.9688
+acc_all=0.0078, acc_base=0.0119, acc_novel=0.0041
+[16/300] Wasserstein_dist: 85783456.0000, vae_loss:402822.5312
+acc_all=0.0046, acc_base=0.0096, acc_novel=0.0000
+[17/300] Wasserstein_dist: 99887488.0000, vae_loss:366107.3750
+acc_all=0.0083, acc_base=0.0108, acc_novel=0.0061
+[18/300] Wasserstein_dist: 131724432.0000, vae_loss:390638.7812
+acc_all=0.0054, acc_base=0.0096, acc_novel=0.0015
+[19/300] Wasserstein_dist: 100564064.0000, vae_loss:372606.8125
+acc_all=0.0067, acc_base=0.0125, acc_novel=0.0015
+[20/300] Wasserstein_dist: 165015232.0000, vae_loss:351499.4062
+acc_all=0.0046, acc_base=0.0091, acc_novel=0.0005
+[21/300] Wasserstein_dist: 195489952.0000, vae_loss:388026.4375
+acc_all=0.0054, acc_base=0.0113, acc_novel=0.0000
+[22/300] Wasserstein_dist: 128964128.0000, vae_loss:377068.4375
+acc_all=0.0067, acc_base=0.0136, acc_novel=0.0005
+[23/300] Wasserstein_dist: 183831904.0000, vae_loss:349120.8438
+acc_all=0.0075, acc_base=0.0147, acc_novel=0.0010
+[24/300] Wasserstein_dist: 180630048.0000, vae_loss:382215.0000
+acc_all=0.0067, acc_base=0.0136, acc_novel=0.0005
+[25/300] Wasserstein_dist: 133135008.0000, vae_loss:394299.4062
+acc_all=0.0070, acc_base=0.0142, acc_novel=0.0005
+[26/300] Wasserstein_dist: 215370432.0000, vae_loss:379976.0000
+acc_all=0.0075, acc_base=0.0142, acc_novel=0.0015
+[27/300] Wasserstein_dist: 247614944.0000, vae_loss:356513.9375
+acc_all=0.0059, acc_base=0.0125, acc_novel=0.0000
+[28/300] Wasserstein_dist: 281451008.0000, vae_loss:343806.9375
+acc_all=0.0043, acc_base=0.0091, acc_novel=0.0000
+Random Seed=5582
+Random Seed=9355
+Random Seed=6355

@@ -1,0 +1,12 @@
+# train fsl on coco
+# CUDA_LAUNCH_BLOCKING=1 
+CUDA_VISIBLE_DEVICES=4 python vae_gan_d2_xu_fsl.py --kshot 10 --splitid 1 --gfsl --preprocessing --ndh 2048 --gan_weight 10000 --cuda --image_embedding res101_finetune --class_embedding att_fewshot --nepoch 300 --lr 0.001 --classifier_lr 0.0001 --dataset COCO --nepoch_classifier 50 --batch_size 64 --latent_size 300 --attSize 300 --resSize 2048 --syn_num 300 --outname coco_vae_gan_d2_xu_gfsl_finetune_shot10_split1
+
+
+
+# train fsl on cub
+# CUDA_VISIBLE_DEVICES=1 python vae_gan_d2_xu_fsl.py --kshot 1 --splitid 1 --gfsl --preprocessing --ndh 2048 --gan_weight 10000 --cuda --image_embedding res101_finetune --class_embedding att_fewshot --nepoch 300 --lr 0.001 --classifier_lr 0.0001 --dataset CUB --nepoch_classifier 50 --batch_size 512 --latent_size 312 --attSize 312 --resSize 2048 --syn_num 300 --outname cub_vae_gan_d2_xu_gfsl_finetune_shot1_split1
+# CUDA_VISIBLE_DEVICES=1 python vae_gan_d2_xu_fsl.py --kshot 2 --splitid 1 --gfsl --preprocessing --ndh 2048 --gan_weight 10000 --cuda --image_embedding res101_finetune --class_embedding att_fewshot --nepoch 300 --lr 0.001 --classifier_lr 0.0001 --dataset CUB --nepoch_classifier 50 --batch_size 512 --latent_size 312 --attSize 312 --resSize 2048 --syn_num 300 --outname cub_vae_gan_d2_xu_gfsl_finetune_shot2_split1
+# CUDA_VISIBLE_DEVICES=1 python vae_gan_d2_xu_fsl.py --kshot 5 --splitid 1 --gfsl --preprocessing --ndh 2048 --gan_weight 10000 --cuda --image_embedding res101_finetune --class_embedding att_fewshot --nepoch 300 --lr 0.001 --classifier_lr 0.0001 --dataset CUB --nepoch_classifier 50 --batch_size 512 --latent_size 312 --attSize 312 --resSize 2048 --syn_num 300 --outname cub_vae_gan_d2_xu_gfsl_finetune_shot5_split1
+# CUDA_VISIBLE_DEVICES=1 python vae_gan_d2_xu_fsl.py --kshot 10 --splitid 1 --gfsl --preprocessing --ndh 2048 --gan_weight 10000 --cuda --image_embedding res101_finetune --class_embedding att_fewshot --nepoch 300 --lr 0.001 --classifier_lr 0.0001 --dataset CUB --nepoch_classifier 50 --batch_size 512 --latent_size 312 --attSize 312 --resSize 2048 --syn_num 300 --outname cub_vae_gan_d2_xu_gfsl_finetune_shot20_split1
+# CUDA_VISIBLE_DEVICES=1 python vae_gan_d2_xu_fsl.py --kshot 20 --splitid 1 --gfsl --preprocessing --ndh 2048 --gan_weight 10000 --cuda --image_embedding res101_finetune --class_embedding att_fewshot --nepoch 300 --lr 0.001 --classifier_lr 0.0001 --dataset CUB --nepoch_classifier 50 --batch_size 512 --latent_size 312 --attSize 312 --resSize 2048 --syn_num 300 --outname cub_vae_gan_d2_xu_gfsl_finetune_shot20_split1

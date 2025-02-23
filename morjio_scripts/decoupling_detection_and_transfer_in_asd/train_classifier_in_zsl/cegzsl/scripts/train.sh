@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4 python3.6 CE_GZSL.py --dataset coco --class_embedding sent --syn_num 100 --batch_size 64 --attSize 300 --nz 1024 --embedSize 2048 --outzSize 512 --nhF 2048 --ins_weight 0.001 --cls_weight 0.001 --ins_temp 0.1 --cls_temp 0.1 --manualSeed 3484 --nclass_all 80 --nclass_seen 65

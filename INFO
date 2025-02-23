@@ -1,0 +1,2070 @@
+2023-05-11 15:20:33,170 - mmfewshot - INFO - initialize ResNet with init_cfg {'type': 'Pretrained', 'checkpoint': 'open-mmlab://detectron2/resnet101_caffe'}
+2023-05-11 15:20:33,546 - mmfewshot - INFO - initialize FPN with init_cfg [{'type': 'Caffe2Xavier', 'override': {'type': 'Caffe2Xavier', 'name': 'lateral_convs'}}, {'type': 'Caffe2Xavier', 'override': {'type': 'Caffe2Xavier', 'name': 'fpn_convs'}}]
+2023-05-11 15:20:33,633 - mmfewshot - INFO - initialize RPNHead with init_cfg {'type': 'Normal', 'layer': 'Conv2d', 'std': 0.01}
+2023-05-11 15:20:33,646 - mmfewshot - INFO - initialize CosineSimBBoxHead with init_cfg [{'type': 'Caffe2Xavier', 'override': {'type': 'Caffe2Xavier', 'name': 'shared_fcs'}}, {'type': 'Normal', 'override': {'type': 'Normal', 'name': 'fc_cls', 'std': 0.01}}, {'type': 'Normal', 'override': {'type': 'Normal', 'name': 'fc_reg', 'std': 0.001}}]
+Name of parameter - Initialization information
+
+backbone.conv1.weight - torch.Size([64, 3, 7, 7]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.bn1.weight - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.bn1.bias - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.conv1.weight - torch.Size([64, 64, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.bn1.weight - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.bn1.bias - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.conv2.weight - torch.Size([64, 64, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.bn2.weight - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.bn2.bias - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.conv3.weight - torch.Size([256, 64, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.bn3.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.bn3.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.downsample.0.weight - torch.Size([256, 64, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.downsample.1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.0.downsample.1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.1.conv1.weight - torch.Size([64, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.1.bn1.weight - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.1.bn1.bias - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.1.conv2.weight - torch.Size([64, 64, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.1.bn2.weight - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.1.bn2.bias - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.1.conv3.weight - torch.Size([256, 64, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.1.bn3.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.1.bn3.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.2.conv1.weight - torch.Size([64, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.2.bn1.weight - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.2.bn1.bias - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.2.conv2.weight - torch.Size([64, 64, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.2.bn2.weight - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.2.bn2.bias - torch.Size([64]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.2.conv3.weight - torch.Size([256, 64, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.2.bn3.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer1.2.bn3.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.conv1.weight - torch.Size([128, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.bn1.weight - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.bn1.bias - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.conv2.weight - torch.Size([128, 128, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.bn2.weight - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.bn2.bias - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.conv3.weight - torch.Size([512, 128, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.bn3.weight - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.bn3.bias - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.downsample.0.weight - torch.Size([512, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.downsample.1.weight - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.0.downsample.1.bias - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.1.conv1.weight - torch.Size([128, 512, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.1.bn1.weight - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.1.bn1.bias - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.1.conv2.weight - torch.Size([128, 128, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.1.bn2.weight - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.1.bn2.bias - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.1.conv3.weight - torch.Size([512, 128, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.1.bn3.weight - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.1.bn3.bias - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.2.conv1.weight - torch.Size([128, 512, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.2.bn1.weight - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.2.bn1.bias - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.2.conv2.weight - torch.Size([128, 128, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.2.bn2.weight - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.2.bn2.bias - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.2.conv3.weight - torch.Size([512, 128, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.2.bn3.weight - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.2.bn3.bias - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.3.conv1.weight - torch.Size([128, 512, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.3.bn1.weight - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.3.bn1.bias - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.3.conv2.weight - torch.Size([128, 128, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.3.bn2.weight - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.3.bn2.bias - torch.Size([128]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.3.conv3.weight - torch.Size([512, 128, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.3.bn3.weight - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer2.3.bn3.bias - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.conv1.weight - torch.Size([256, 512, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.downsample.0.weight - torch.Size([1024, 512, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.downsample.1.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.0.downsample.1.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.1.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.1.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.1.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.1.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.1.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.1.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.1.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.1.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.1.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.2.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.2.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.2.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.2.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.2.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.2.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.2.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.2.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.2.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.3.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.3.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.3.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.3.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.3.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.3.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.3.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.3.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.3.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.4.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.4.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.4.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.4.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.4.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.4.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.4.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.4.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.4.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.5.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.5.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.5.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.5.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.5.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.5.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.5.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.5.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.5.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.6.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.6.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.6.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.6.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.6.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.6.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.6.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.6.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.6.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.7.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.7.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.7.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.7.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.7.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.7.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.7.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.7.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.7.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.8.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.8.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.8.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.8.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.8.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.8.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.8.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.8.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.8.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.9.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.9.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.9.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.9.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.9.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.9.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.9.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.9.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.9.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.10.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.10.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.10.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.10.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.10.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.10.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.10.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.10.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.10.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.11.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.11.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.11.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.11.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.11.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.11.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.11.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.11.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.11.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.12.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.12.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.12.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.12.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.12.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.12.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.12.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.12.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.12.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.13.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.13.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.13.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.13.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.13.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.13.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.13.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.13.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.13.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.14.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.14.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.14.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.14.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.14.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.14.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.14.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.14.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.14.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.15.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.15.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.15.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.15.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.15.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.15.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.15.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.15.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.15.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.16.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.16.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.16.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.16.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.16.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.16.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.16.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.16.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.16.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.17.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.17.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.17.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.17.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.17.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.17.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.17.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.17.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.17.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.18.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.18.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.18.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.18.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.18.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.18.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.18.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.18.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.18.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.19.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.19.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.19.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.19.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.19.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.19.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.19.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.19.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.19.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.20.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.20.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.20.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.20.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.20.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.20.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.20.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.20.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.20.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.21.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.21.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.21.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.21.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.21.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.21.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.21.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.21.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.21.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.22.conv1.weight - torch.Size([256, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.22.bn1.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.22.bn1.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.22.conv2.weight - torch.Size([256, 256, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.22.bn2.weight - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.22.bn2.bias - torch.Size([256]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.22.conv3.weight - torch.Size([1024, 256, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.22.bn3.weight - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer3.22.bn3.bias - torch.Size([1024]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.conv1.weight - torch.Size([512, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.bn1.weight - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.bn1.bias - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.conv2.weight - torch.Size([512, 512, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.bn2.weight - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.bn2.bias - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.conv3.weight - torch.Size([2048, 512, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.bn3.weight - torch.Size([2048]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.bn3.bias - torch.Size([2048]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.downsample.0.weight - torch.Size([2048, 1024, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.downsample.1.weight - torch.Size([2048]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.0.downsample.1.bias - torch.Size([2048]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.1.conv1.weight - torch.Size([512, 2048, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.1.bn1.weight - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.1.bn1.bias - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.1.conv2.weight - torch.Size([512, 512, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.1.bn2.weight - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.1.bn2.bias - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.1.conv3.weight - torch.Size([2048, 512, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.1.bn3.weight - torch.Size([2048]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.1.bn3.bias - torch.Size([2048]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.2.conv1.weight - torch.Size([512, 2048, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.2.bn1.weight - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.2.bn1.bias - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.2.conv2.weight - torch.Size([512, 512, 3, 3]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.2.bn2.weight - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.2.bn2.bias - torch.Size([512]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.2.conv3.weight - torch.Size([2048, 512, 1, 1]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.2.bn3.weight - torch.Size([2048]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+backbone.layer4.2.bn3.bias - torch.Size([2048]): 
+PretrainedInit: load from open-mmlab://detectron2/resnet101_caffe 
+
+neck.lateral_convs.0.conv.weight - torch.Size([256, 256, 1, 1]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+
+neck.lateral_convs.0.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of FSCE  
+
+neck.lateral_convs.1.conv.weight - torch.Size([256, 512, 1, 1]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+
+neck.lateral_convs.1.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of FSCE  
+
+neck.lateral_convs.2.conv.weight - torch.Size([256, 1024, 1, 1]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+
+neck.lateral_convs.2.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of FSCE  
+
+neck.lateral_convs.3.conv.weight - torch.Size([256, 2048, 1, 1]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+
+neck.lateral_convs.3.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of FSCE  
+
+neck.fpn_convs.0.conv.weight - torch.Size([256, 256, 3, 3]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+
+neck.fpn_convs.0.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of FSCE  
+
+neck.fpn_convs.1.conv.weight - torch.Size([256, 256, 3, 3]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+
+neck.fpn_convs.1.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of FSCE  
+
+neck.fpn_convs.2.conv.weight - torch.Size([256, 256, 3, 3]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+
+neck.fpn_convs.2.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of FSCE  
+
+neck.fpn_convs.3.conv.weight - torch.Size([256, 256, 3, 3]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+
+neck.fpn_convs.3.conv.bias - torch.Size([256]): 
+The value is the same before and after calling `init_weights` of FSCE  
+
+rpn_head.rpn_conv.weight - torch.Size([256, 256, 3, 3]): 
+NormalInit: mean=0, std=0.01, bias=0 
+
+rpn_head.rpn_conv.bias - torch.Size([256]): 
+NormalInit: mean=0, std=0.01, bias=0 
+
+rpn_head.rpn_cls.weight - torch.Size([3, 256, 1, 1]): 
+NormalInit: mean=0, std=0.01, bias=0 
+
+rpn_head.rpn_cls.bias - torch.Size([3]): 
+NormalInit: mean=0, std=0.01, bias=0 
+
+rpn_head.rpn_reg.weight - torch.Size([12, 256, 1, 1]): 
+NormalInit: mean=0, std=0.01, bias=0 
+
+rpn_head.rpn_reg.bias - torch.Size([12]): 
+NormalInit: mean=0, std=0.01, bias=0 
+
+roi_head.bbox_head.fc_cls.weight - torch.Size([81, 1024]): 
+NormalInit: mean=0, std=0.01, bias=0 
+
+roi_head.bbox_head.fc_reg.weight - torch.Size([320, 1024]): 
+NormalInit: mean=0, std=0.001, bias=0 
+
+roi_head.bbox_head.fc_reg.bias - torch.Size([320]): 
+NormalInit: mean=0, std=0.001, bias=0 
+
+roi_head.bbox_head.shared_fcs.0.weight - torch.Size([1024, 12544]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+
+roi_head.bbox_head.shared_fcs.0.bias - torch.Size([1024]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+
+roi_head.bbox_head.shared_fcs.1.weight - torch.Size([1024, 1024]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+
+roi_head.bbox_head.shared_fcs.1.bias - torch.Size([1024]): 
+Caffe2XavierInit: a=1, mode=fan_in, nonlinearity=leaky_relu, distribution =uniform, bias=0 
+2023-05-11 15:20:33,856 - mmfewshot - INFO - Frozen parameters: ['backbone']
+2023-05-11 15:20:33,860 - mmfewshot - INFO - Training parameters: neck.lateral_convs.0.conv.weight
+2023-05-11 15:20:33,860 - mmfewshot - INFO - Training parameters: neck.lateral_convs.0.conv.bias
+2023-05-11 15:20:33,860 - mmfewshot - INFO - Training parameters: neck.lateral_convs.1.conv.weight
+2023-05-11 15:20:33,860 - mmfewshot - INFO - Training parameters: neck.lateral_convs.1.conv.bias
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.lateral_convs.2.conv.weight
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.lateral_convs.2.conv.bias
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.lateral_convs.3.conv.weight
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.lateral_convs.3.conv.bias
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.fpn_convs.0.conv.weight
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.fpn_convs.0.conv.bias
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.fpn_convs.1.conv.weight
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.fpn_convs.1.conv.bias
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.fpn_convs.2.conv.weight
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.fpn_convs.2.conv.bias
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.fpn_convs.3.conv.weight
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: neck.fpn_convs.3.conv.bias
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: rpn_head.rpn_conv.weight
+2023-05-11 15:20:33,861 - mmfewshot - INFO - Training parameters: rpn_head.rpn_conv.bias
+2023-05-11 15:20:33,862 - mmfewshot - INFO - Training parameters: rpn_head.rpn_cls.weight
+2023-05-11 15:20:33,862 - mmfewshot - INFO - Training parameters: rpn_head.rpn_cls.bias
+2023-05-11 15:20:33,862 - mmfewshot - INFO - Training parameters: rpn_head.rpn_reg.weight
+2023-05-11 15:20:33,862 - mmfewshot - INFO - Training parameters: rpn_head.rpn_reg.bias
+2023-05-11 15:20:33,862 - mmfewshot - INFO - Training parameters: roi_head.bbox_head.fc_cls.weight
+2023-05-11 15:20:33,862 - mmfewshot - INFO - Training parameters: roi_head.bbox_head.fc_reg.weight
+2023-05-11 15:20:33,862 - mmfewshot - INFO - Training parameters: roi_head.bbox_head.fc_reg.bias
+2023-05-11 15:20:33,862 - mmfewshot - INFO - Training parameters: roi_head.bbox_head.shared_fcs.0.weight
+2023-05-11 15:20:33,862 - mmfewshot - INFO - Training parameters: roi_head.bbox_head.shared_fcs.0.bias
+2023-05-11 15:20:33,862 - mmfewshot - INFO - Training parameters: roi_head.bbox_head.shared_fcs.1.weight
+2023-05-11 15:20:33,862 - mmfewshot - INFO - Training parameters: roi_head.bbox_head.shared_fcs.1.bias
+2023-05-11 15:20:36,888 - mmfewshot - INFO - 
+FewShotCocoDataset Train dataset with number of images 3992, and instance counts: 
++------------+-------+-------------+-------+-------------------+-------+-------------------+-------+--------------+-------+
+| category   | count | category    | count | category          | count | category          | count | category     | count |
++------------+-------+-------------+-------+-------------------+-------+-------------------+-------+--------------+-------+
+| 0 [person] | 10538 | 1 [bicycle] | 313   | 2 [car]           | 1641  | 3 [motorcycle]    | 388   | 4 [airplane] | 131   |
+| 5 [bus]    | 259   | 6 [train]   | 212   | 7 [boat]          | 458   | 8 [bird]          | 453   | 9 [cat]      | 195   |
+| 10 [dog]   | 223   | 11 [horse]  | 305   | 12 [sheep]        | 306   | 13 [cow]          | 376   | 14 [bottle]  | 939   |
+| 15 [chair] | 1594  | 16 [couch]  | 236   | 17 [potted plant] | 429   | 18 [dining table] | 633   | 19 [tv]      | 257   |
+|            |       |             |       |                   |       |                   |       |              |       |
++------------+-------+-------------+-------+-------------------+-------+-------------------+-------+--------------+-------+
+2023-05-11 15:20:36,889 - mmfewshot - INFO - load checkpoint from local path: ./work_dirs/fsce_r101_fpn_coco_30shot-fine-tuning_34server/iter_40000.pth
+2023-05-11 15:20:37,323 - mmfewshot - INFO - load checkpoint from ./work_dirs/fsce_r101_fpn_coco_30shot-fine-tuning_34server/iter_40000.pth
+2023-05-11 15:20:37,323 - mmfewshot - INFO - fg_iou_thr 0.6 bg_iou_thr 0.3 data_split train save_dir data/coco/any_shot_detection_extracted_feats_and_embedding_classifier/visual_info_transfer/60_20_fsd_split/fsce/30shot
+2023-05-11 15:20:42,299 - mmfewshot - INFO - 00000/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:20:42,564 - mmfewshot - INFO - 00001/998 feats shape - torch.Size([279, 1024])
+2023-05-11 15:20:42,804 - mmfewshot - INFO - 00002/998 feats shape - torch.Size([393, 1024])
+2023-05-11 15:20:43,025 - mmfewshot - INFO - 00003/998 feats shape - torch.Size([303, 1024])
+2023-05-11 15:20:43,270 - mmfewshot - INFO - 00004/998 feats shape - torch.Size([141, 1024])
+2023-05-11 15:20:43,513 - mmfewshot - INFO - 00005/998 feats shape - torch.Size([294, 1024])
+2023-05-11 15:20:43,803 - mmfewshot - INFO - 00006/998 feats shape - torch.Size([375, 1024])
+2023-05-11 15:20:44,044 - mmfewshot - INFO - 00007/998 feats shape - torch.Size([423, 1024])
+2023-05-11 15:20:44,293 - mmfewshot - INFO - 00008/998 feats shape - torch.Size([180, 1024])
+2023-05-11 15:20:44,641 - mmfewshot - INFO - 00009/998 feats shape - torch.Size([285, 1024])
+2023-05-11 15:20:44,893 - mmfewshot - INFO - 00010/998 feats shape - torch.Size([300, 1024])
+2023-05-11 15:20:45,170 - mmfewshot - INFO - 00011/998 feats shape - torch.Size([357, 1024])
+2023-05-11 15:20:45,416 - mmfewshot - INFO - 00012/998 feats shape - torch.Size([459, 1024])
+2023-05-11 15:20:45,680 - mmfewshot - INFO - 00013/998 feats shape - torch.Size([222, 1024])
+2023-05-11 15:20:45,943 - mmfewshot - INFO - 00014/998 feats shape - torch.Size([423, 1024])
+2023-05-11 15:20:46,251 - mmfewshot - INFO - 00015/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:20:46,518 - mmfewshot - INFO - 00016/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:20:46,765 - mmfewshot - INFO - 00017/998 feats shape - torch.Size([351, 1024])
+2023-05-11 15:20:46,988 - mmfewshot - INFO - 00018/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:20:47,243 - mmfewshot - INFO - 00019/998 feats shape - torch.Size([351, 1024])
+2023-05-11 15:20:47,560 - mmfewshot - INFO - 00020/998 feats shape - torch.Size([219, 1024])
+2023-05-11 15:20:47,792 - mmfewshot - INFO - 00021/998 feats shape - torch.Size([285, 1024])
+2023-05-11 15:20:48,075 - mmfewshot - INFO - 00022/998 feats shape - torch.Size([105, 1024])
+2023-05-11 15:20:48,332 - mmfewshot - INFO - 00023/998 feats shape - torch.Size([480, 1024])
+2023-05-11 15:20:48,611 - mmfewshot - INFO - 00024/998 feats shape - torch.Size([333, 1024])
+2023-05-11 15:20:48,910 - mmfewshot - INFO - 00025/998 feats shape - torch.Size([423, 1024])
+2023-05-11 15:20:49,169 - mmfewshot - INFO - 00026/998 feats shape - torch.Size([306, 1024])
+2023-05-11 15:20:49,500 - mmfewshot - INFO - 00027/998 feats shape - torch.Size([147, 1024])
+2023-05-11 15:20:49,773 - mmfewshot - INFO - 00028/998 feats shape - torch.Size([228, 1024])
+2023-05-11 15:20:50,075 - mmfewshot - INFO - 00029/998 feats shape - torch.Size([258, 1024])
+2023-05-11 15:20:50,370 - mmfewshot - INFO - 00030/998 feats shape - torch.Size([306, 1024])
+2023-05-11 15:20:50,660 - mmfewshot - INFO - 00031/998 feats shape - torch.Size([357, 1024])
+2023-05-11 15:20:50,893 - mmfewshot - INFO - 00032/998 feats shape - torch.Size([123, 1024])
+2023-05-11 15:20:51,126 - mmfewshot - INFO - 00033/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:20:51,380 - mmfewshot - INFO - 00034/998 feats shape - torch.Size([423, 1024])
+2023-05-11 15:20:51,633 - mmfewshot - INFO - 00035/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:20:51,890 - mmfewshot - INFO - 00036/998 feats shape - torch.Size([120, 1024])
+2023-05-11 15:20:52,158 - mmfewshot - INFO - 00037/998 feats shape - torch.Size([318, 1024])
+2023-05-11 15:20:52,375 - mmfewshot - INFO - 00038/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:20:52,666 - mmfewshot - INFO - 00039/998 feats shape - torch.Size([270, 1024])
+2023-05-11 15:20:52,986 - mmfewshot - INFO - 00040/998 feats shape - torch.Size([312, 1024])
+2023-05-11 15:20:53,206 - mmfewshot - INFO - 00041/998 feats shape - torch.Size([324, 1024])
+2023-05-11 15:20:53,445 - mmfewshot - INFO - 00042/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:20:53,732 - mmfewshot - INFO - 00043/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:20:54,008 - mmfewshot - INFO - 00044/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:20:54,304 - mmfewshot - INFO - 00045/998 feats shape - torch.Size([87, 1024])
+2023-05-11 15:20:54,570 - mmfewshot - INFO - 00046/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:20:54,795 - mmfewshot - INFO - 00047/998 feats shape - torch.Size([129, 1024])
+2023-05-11 15:20:55,107 - mmfewshot - INFO - 00048/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:20:55,433 - mmfewshot - INFO - 00049/998 feats shape - torch.Size([162, 1024])
+2023-05-11 15:20:55,714 - mmfewshot - INFO - 00050/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:20:55,988 - mmfewshot - INFO - 00051/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:20:56,234 - mmfewshot - INFO - 00052/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:20:56,538 - mmfewshot - INFO - 00053/998 feats shape - torch.Size([219, 1024])
+2023-05-11 15:20:56,750 - mmfewshot - INFO - 00054/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:20:57,024 - mmfewshot - INFO - 00055/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:20:57,264 - mmfewshot - INFO - 00056/998 feats shape - torch.Size([282, 1024])
+2023-05-11 15:20:57,566 - mmfewshot - INFO - 00057/998 feats shape - torch.Size([144, 1024])
+2023-05-11 15:20:57,825 - mmfewshot - INFO - 00058/998 feats shape - torch.Size([183, 1024])
+2023-05-11 15:20:58,055 - mmfewshot - INFO - 00059/998 feats shape - torch.Size([480, 1024])
+2023-05-11 15:20:58,302 - mmfewshot - INFO - 00060/998 feats shape - torch.Size([300, 1024])
+2023-05-11 15:20:58,530 - mmfewshot - INFO - 00061/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:20:58,824 - mmfewshot - INFO - 00062/998 feats shape - torch.Size([147, 1024])
+2023-05-11 15:20:59,102 - mmfewshot - INFO - 00063/998 feats shape - torch.Size([111, 1024])
+2023-05-11 15:20:59,331 - mmfewshot - INFO - 00064/998 feats shape - torch.Size([117, 1024])
+2023-05-11 15:20:59,611 - mmfewshot - INFO - 00065/998 feats shape - torch.Size([228, 1024])
+2023-05-11 15:20:59,852 - mmfewshot - INFO - 00066/998 feats shape - torch.Size([348, 1024])
+2023-05-11 15:21:00,111 - mmfewshot - INFO - 00067/998 feats shape - torch.Size([303, 1024])
+2023-05-11 15:21:00,379 - mmfewshot - INFO - 00068/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:21:00,622 - mmfewshot - INFO - 00069/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:21:00,897 - mmfewshot - INFO - 00070/998 feats shape - torch.Size([219, 1024])
+2023-05-11 15:21:01,164 - mmfewshot - INFO - 00071/998 feats shape - torch.Size([366, 1024])
+2023-05-11 15:21:01,431 - mmfewshot - INFO - 00072/998 feats shape - torch.Size([174, 1024])
+2023-05-11 15:21:01,640 - mmfewshot - INFO - 00073/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:21:01,916 - mmfewshot - INFO - 00074/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:21:02,185 - mmfewshot - INFO - 00075/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:21:02,522 - mmfewshot - INFO - 00076/998 feats shape - torch.Size([300, 1024])
+2023-05-11 15:21:02,794 - mmfewshot - INFO - 00077/998 feats shape - torch.Size([174, 1024])
+2023-05-11 15:21:03,009 - mmfewshot - INFO - 00078/998 feats shape - torch.Size([402, 1024])
+2023-05-11 15:21:03,227 - mmfewshot - INFO - 00079/998 feats shape - torch.Size([249, 1024])
+2023-05-11 15:21:03,474 - mmfewshot - INFO - 00080/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:21:03,802 - mmfewshot - INFO - 00081/998 feats shape - torch.Size([156, 1024])
+2023-05-11 15:21:04,075 - mmfewshot - INFO - 00082/998 feats shape - torch.Size([648, 1024])
+2023-05-11 15:21:04,327 - mmfewshot - INFO - 00083/998 feats shape - torch.Size([447, 1024])
+2023-05-11 15:21:04,606 - mmfewshot - INFO - 00084/998 feats shape - torch.Size([219, 1024])
+2023-05-11 15:21:04,860 - mmfewshot - INFO - 00085/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:21:05,109 - mmfewshot - INFO - 00086/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:21:05,360 - mmfewshot - INFO - 00087/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:21:05,640 - mmfewshot - INFO - 00088/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:21:05,868 - mmfewshot - INFO - 00089/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:21:06,073 - mmfewshot - INFO - 00090/998 feats shape - torch.Size([150, 1024])
+2023-05-11 15:21:06,330 - mmfewshot - INFO - 00091/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:21:06,689 - mmfewshot - INFO - 00092/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:21:06,949 - mmfewshot - INFO - 00093/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:21:07,157 - mmfewshot - INFO - 00094/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:21:07,426 - mmfewshot - INFO - 00095/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:21:07,752 - mmfewshot - INFO - 00096/998 feats shape - torch.Size([375, 1024])
+2023-05-11 15:21:08,005 - mmfewshot - INFO - 00097/998 feats shape - torch.Size([351, 1024])
+2023-05-11 15:21:08,254 - mmfewshot - INFO - 00098/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:21:08,516 - mmfewshot - INFO - 00099/998 feats shape - torch.Size([102, 1024])
+2023-05-11 15:21:08,844 - mmfewshot - INFO - 00100/998 feats shape - torch.Size([408, 1024])
+2023-05-11 15:21:09,159 - mmfewshot - INFO - 00101/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:21:09,480 - mmfewshot - INFO - 00102/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:21:09,810 - mmfewshot - INFO - 00103/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:21:10,058 - mmfewshot - INFO - 00104/998 feats shape - torch.Size([102, 1024])
+2023-05-11 15:21:10,341 - mmfewshot - INFO - 00105/998 feats shape - torch.Size([444, 1024])
+2023-05-11 15:21:10,595 - mmfewshot - INFO - 00106/998 feats shape - torch.Size([486, 1024])
+2023-05-11 15:21:10,908 - mmfewshot - INFO - 00107/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:21:11,185 - mmfewshot - INFO - 00108/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:21:11,513 - mmfewshot - INFO - 00109/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:21:11,777 - mmfewshot - INFO - 00110/998 feats shape - torch.Size([360, 1024])
+2023-05-11 15:21:12,131 - mmfewshot - INFO - 00111/998 feats shape - torch.Size([285, 1024])
+2023-05-11 15:21:12,447 - mmfewshot - INFO - 00112/998 feats shape - torch.Size([120, 1024])
+2023-05-11 15:21:12,674 - mmfewshot - INFO - 00113/998 feats shape - torch.Size([222, 1024])
+2023-05-11 15:21:12,919 - mmfewshot - INFO - 00114/998 feats shape - torch.Size([225, 1024])
+2023-05-11 15:21:13,223 - mmfewshot - INFO - 00115/998 feats shape - torch.Size([129, 1024])
+2023-05-11 15:21:13,544 - mmfewshot - INFO - 00116/998 feats shape - torch.Size([216, 1024])
+2023-05-11 15:21:13,805 - mmfewshot - INFO - 00117/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:21:14,039 - mmfewshot - INFO - 00118/998 feats shape - torch.Size([141, 1024])
+2023-05-11 15:21:14,342 - mmfewshot - INFO - 00119/998 feats shape - torch.Size([420, 1024])
+2023-05-11 15:21:14,607 - mmfewshot - INFO - 00120/998 feats shape - torch.Size([381, 1024])
+2023-05-11 15:21:14,853 - mmfewshot - INFO - 00121/998 feats shape - torch.Size([375, 1024])
+2023-05-11 15:21:15,111 - mmfewshot - INFO - 00122/998 feats shape - torch.Size([309, 1024])
+2023-05-11 15:21:15,411 - mmfewshot - INFO - 00123/998 feats shape - torch.Size([168, 1024])
+2023-05-11 15:21:15,662 - mmfewshot - INFO - 00124/998 feats shape - torch.Size([372, 1024])
+2023-05-11 15:21:15,982 - mmfewshot - INFO - 00125/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:21:16,236 - mmfewshot - INFO - 00126/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:21:16,461 - mmfewshot - INFO - 00127/998 feats shape - torch.Size([432, 1024])
+2023-05-11 15:21:16,698 - mmfewshot - INFO - 00128/998 feats shape - torch.Size([270, 1024])
+2023-05-11 15:21:16,913 - mmfewshot - INFO - 00129/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:21:17,170 - mmfewshot - INFO - 00130/998 feats shape - torch.Size([333, 1024])
+2023-05-11 15:21:17,399 - mmfewshot - INFO - 00131/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:21:17,673 - mmfewshot - INFO - 00132/998 feats shape - torch.Size([213, 1024])
+2023-05-11 15:21:17,929 - mmfewshot - INFO - 00133/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:21:18,246 - mmfewshot - INFO - 00134/998 feats shape - torch.Size([252, 1024])
+2023-05-11 15:21:18,525 - mmfewshot - INFO - 00135/998 feats shape - torch.Size([360, 1024])
+2023-05-11 15:21:18,789 - mmfewshot - INFO - 00136/998 feats shape - torch.Size([360, 1024])
+2023-05-11 15:21:19,193 - mmfewshot - INFO - 00137/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:21:19,552 - mmfewshot - INFO - 00138/998 feats shape - torch.Size([207, 1024])
+2023-05-11 15:21:19,827 - mmfewshot - INFO - 00139/998 feats shape - torch.Size([117, 1024])
+2023-05-11 15:21:20,081 - mmfewshot - INFO - 00140/998 feats shape - torch.Size([129, 1024])
+2023-05-11 15:21:20,347 - mmfewshot - INFO - 00141/998 feats shape - torch.Size([147, 1024])
+2023-05-11 15:21:20,545 - mmfewshot - INFO - 00142/998 feats shape - torch.Size([207, 1024])
+2023-05-11 15:21:20,790 - mmfewshot - INFO - 00143/998 feats shape - torch.Size([303, 1024])
+2023-05-11 15:21:21,018 - mmfewshot - INFO - 00144/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:21:21,297 - mmfewshot - INFO - 00145/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:21:21,552 - mmfewshot - INFO - 00146/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:21:21,853 - mmfewshot - INFO - 00147/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:21:22,108 - mmfewshot - INFO - 00148/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:21:22,455 - mmfewshot - INFO - 00149/998 feats shape - torch.Size([120, 1024])
+2023-05-11 15:21:22,711 - mmfewshot - INFO - 00150/998 feats shape - torch.Size([144, 1024])
+2023-05-11 15:21:22,996 - mmfewshot - INFO - 00151/998 feats shape - torch.Size([279, 1024])
+2023-05-11 15:21:23,258 - mmfewshot - INFO - 00152/998 feats shape - torch.Size([303, 1024])
+2023-05-11 15:21:23,529 - mmfewshot - INFO - 00153/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:21:23,771 - mmfewshot - INFO - 00154/998 feats shape - torch.Size([375, 1024])
+2023-05-11 15:21:23,993 - mmfewshot - INFO - 00155/998 feats shape - torch.Size([366, 1024])
+2023-05-11 15:21:24,283 - mmfewshot - INFO - 00156/998 feats shape - torch.Size([132, 1024])
+2023-05-11 15:21:24,601 - mmfewshot - INFO - 00157/998 feats shape - torch.Size([273, 1024])
+2023-05-11 15:21:24,876 - mmfewshot - INFO - 00158/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:21:25,149 - mmfewshot - INFO - 00159/998 feats shape - torch.Size([333, 1024])
+2023-05-11 15:21:25,399 - mmfewshot - INFO - 00160/998 feats shape - torch.Size([411, 1024])
+2023-05-11 15:21:25,670 - mmfewshot - INFO - 00161/998 feats shape - torch.Size([363, 1024])
+2023-05-11 15:21:25,959 - mmfewshot - INFO - 00162/998 feats shape - torch.Size([318, 1024])
+2023-05-11 15:21:26,208 - mmfewshot - INFO - 00163/998 feats shape - torch.Size([246, 1024])
+2023-05-11 15:21:26,512 - mmfewshot - INFO - 00164/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:21:26,791 - mmfewshot - INFO - 00165/998 feats shape - torch.Size([183, 1024])
+2023-05-11 15:21:27,110 - mmfewshot - INFO - 00166/998 feats shape - torch.Size([342, 1024])
+2023-05-11 15:21:27,396 - mmfewshot - INFO - 00167/998 feats shape - torch.Size([345, 1024])
+2023-05-11 15:21:27,632 - mmfewshot - INFO - 00168/998 feats shape - torch.Size([105, 1024])
+2023-05-11 15:21:27,856 - mmfewshot - INFO - 00169/998 feats shape - torch.Size([144, 1024])
+2023-05-11 15:21:28,178 - mmfewshot - INFO - 00170/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:21:28,481 - mmfewshot - INFO - 00171/998 feats shape - torch.Size([183, 1024])
+2023-05-11 15:21:28,732 - mmfewshot - INFO - 00172/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:21:28,958 - mmfewshot - INFO - 00173/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:21:29,304 - mmfewshot - INFO - 00174/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:21:29,579 - mmfewshot - INFO - 00175/998 feats shape - torch.Size([168, 1024])
+2023-05-11 15:21:29,924 - mmfewshot - INFO - 00176/998 feats shape - torch.Size([498, 1024])
+2023-05-11 15:21:30,304 - mmfewshot - INFO - 00177/998 feats shape - torch.Size([360, 1024])
+2023-05-11 15:21:30,597 - mmfewshot - INFO - 00178/998 feats shape - torch.Size([339, 1024])
+2023-05-11 15:21:30,838 - mmfewshot - INFO - 00179/998 feats shape - torch.Size([456, 1024])
+2023-05-11 15:21:31,084 - mmfewshot - INFO - 00180/998 feats shape - torch.Size([564, 1024])
+2023-05-11 15:21:31,354 - mmfewshot - INFO - 00181/998 feats shape - torch.Size([360, 1024])
+2023-05-11 15:21:31,563 - mmfewshot - INFO - 00182/998 feats shape - torch.Size([411, 1024])
+2023-05-11 15:21:31,775 - mmfewshot - INFO - 00183/998 feats shape - torch.Size([315, 1024])
+2023-05-11 15:21:32,068 - mmfewshot - INFO - 00184/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:21:32,286 - mmfewshot - INFO - 00185/998 feats shape - torch.Size([66, 1024])
+2023-05-11 15:21:32,585 - mmfewshot - INFO - 00186/998 feats shape - torch.Size([252, 1024])
+2023-05-11 15:21:32,844 - mmfewshot - INFO - 00187/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:21:33,126 - mmfewshot - INFO - 00188/998 feats shape - torch.Size([249, 1024])
+2023-05-11 15:21:33,394 - mmfewshot - INFO - 00189/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:21:33,712 - mmfewshot - INFO - 00190/998 feats shape - torch.Size([90, 1024])
+2023-05-11 15:21:33,962 - mmfewshot - INFO - 00191/998 feats shape - torch.Size([69, 1024])
+2023-05-11 15:21:34,209 - mmfewshot - INFO - 00192/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:21:34,442 - mmfewshot - INFO - 00193/998 feats shape - torch.Size([198, 1024])
+2023-05-11 15:21:34,667 - mmfewshot - INFO - 00194/998 feats shape - torch.Size([180, 1024])
+2023-05-11 15:21:34,936 - mmfewshot - INFO - 00195/998 feats shape - torch.Size([183, 1024])
+2023-05-11 15:21:35,234 - mmfewshot - INFO - 00196/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:21:35,616 - mmfewshot - INFO - 00197/998 feats shape - torch.Size([324, 1024])
+2023-05-11 15:21:35,860 - mmfewshot - INFO - 00198/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:21:36,182 - mmfewshot - INFO - 00199/998 feats shape - torch.Size([246, 1024])
+2023-05-11 15:21:36,481 - mmfewshot - INFO - 00200/998 feats shape - torch.Size([279, 1024])
+2023-05-11 15:21:36,819 - mmfewshot - INFO - 00201/998 feats shape - torch.Size([534, 1024])
+2023-05-11 15:21:37,134 - mmfewshot - INFO - 00202/998 feats shape - torch.Size([357, 1024])
+2023-05-11 15:21:37,356 - mmfewshot - INFO - 00203/998 feats shape - torch.Size([318, 1024])
+2023-05-11 15:21:37,603 - mmfewshot - INFO - 00204/998 feats shape - torch.Size([507, 1024])
+2023-05-11 15:21:37,833 - mmfewshot - INFO - 00205/998 feats shape - torch.Size([498, 1024])
+2023-05-11 15:21:38,104 - mmfewshot - INFO - 00206/998 feats shape - torch.Size([351, 1024])
+2023-05-11 15:21:38,380 - mmfewshot - INFO - 00207/998 feats shape - torch.Size([279, 1024])
+2023-05-11 15:21:38,631 - mmfewshot - INFO - 00208/998 feats shape - torch.Size([345, 1024])
+2023-05-11 15:21:38,879 - mmfewshot - INFO - 00209/998 feats shape - torch.Size([156, 1024])
+2023-05-11 15:21:39,128 - mmfewshot - INFO - 00210/998 feats shape - torch.Size([456, 1024])
+2023-05-11 15:21:39,464 - mmfewshot - INFO - 00211/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:21:39,757 - mmfewshot - INFO - 00212/998 feats shape - torch.Size([198, 1024])
+2023-05-11 15:21:40,080 - mmfewshot - INFO - 00213/998 feats shape - torch.Size([306, 1024])
+2023-05-11 15:21:40,341 - mmfewshot - INFO - 00214/998 feats shape - torch.Size([333, 1024])
+2023-05-11 15:21:40,628 - mmfewshot - INFO - 00215/998 feats shape - torch.Size([162, 1024])
+2023-05-11 15:21:40,881 - mmfewshot - INFO - 00216/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:21:41,083 - mmfewshot - INFO - 00217/998 feats shape - torch.Size([222, 1024])
+2023-05-11 15:21:41,379 - mmfewshot - INFO - 00218/998 feats shape - torch.Size([60, 1024])
+2023-05-11 15:21:41,574 - mmfewshot - INFO - 00219/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:21:41,854 - mmfewshot - INFO - 00220/998 feats shape - torch.Size([270, 1024])
+2023-05-11 15:21:42,111 - mmfewshot - INFO - 00221/998 feats shape - torch.Size([285, 1024])
+2023-05-11 15:21:42,373 - mmfewshot - INFO - 00222/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:21:42,624 - mmfewshot - INFO - 00223/998 feats shape - torch.Size([174, 1024])
+2023-05-11 15:21:42,877 - mmfewshot - INFO - 00224/998 feats shape - torch.Size([483, 1024])
+2023-05-11 15:21:43,176 - mmfewshot - INFO - 00225/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:21:43,398 - mmfewshot - INFO - 00226/998 feats shape - torch.Size([318, 1024])
+2023-05-11 15:21:43,712 - mmfewshot - INFO - 00227/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:21:43,960 - mmfewshot - INFO - 00228/998 feats shape - torch.Size([447, 1024])
+2023-05-11 15:21:44,271 - mmfewshot - INFO - 00229/998 feats shape - torch.Size([384, 1024])
+2023-05-11 15:21:44,603 - mmfewshot - INFO - 00230/998 feats shape - torch.Size([162, 1024])
+2023-05-11 15:21:44,877 - mmfewshot - INFO - 00231/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:21:45,145 - mmfewshot - INFO - 00232/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:21:45,442 - mmfewshot - INFO - 00233/998 feats shape - torch.Size([102, 1024])
+2023-05-11 15:21:45,684 - mmfewshot - INFO - 00234/998 feats shape - torch.Size([198, 1024])
+2023-05-11 15:21:45,943 - mmfewshot - INFO - 00235/998 feats shape - torch.Size([450, 1024])
+2023-05-11 15:21:46,193 - mmfewshot - INFO - 00236/998 feats shape - torch.Size([294, 1024])
+2023-05-11 15:21:46,521 - mmfewshot - INFO - 00237/998 feats shape - torch.Size([252, 1024])
+2023-05-11 15:21:46,760 - mmfewshot - INFO - 00238/998 feats shape - torch.Size([183, 1024])
+2023-05-11 15:21:47,059 - mmfewshot - INFO - 00239/998 feats shape - torch.Size([156, 1024])
+2023-05-11 15:21:47,296 - mmfewshot - INFO - 00240/998 feats shape - torch.Size([219, 1024])
+2023-05-11 15:21:47,541 - mmfewshot - INFO - 00241/998 feats shape - torch.Size([198, 1024])
+2023-05-11 15:21:47,902 - mmfewshot - INFO - 00242/998 feats shape - torch.Size([213, 1024])
+2023-05-11 15:21:48,160 - mmfewshot - INFO - 00243/998 feats shape - torch.Size([78, 1024])
+2023-05-11 15:21:48,409 - mmfewshot - INFO - 00244/998 feats shape - torch.Size([270, 1024])
+2023-05-11 15:21:48,678 - mmfewshot - INFO - 00245/998 feats shape - torch.Size([108, 1024])
+2023-05-11 15:21:48,928 - mmfewshot - INFO - 00246/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:21:49,260 - mmfewshot - INFO - 00247/998 feats shape - torch.Size([312, 1024])
+2023-05-11 15:21:49,541 - mmfewshot - INFO - 00248/998 feats shape - torch.Size([162, 1024])
+2023-05-11 15:21:49,832 - mmfewshot - INFO - 00249/998 feats shape - torch.Size([180, 1024])
+2023-05-11 15:21:50,078 - mmfewshot - INFO - 00250/998 feats shape - torch.Size([120, 1024])
+2023-05-11 15:21:50,391 - mmfewshot - INFO - 00251/998 feats shape - torch.Size([195, 1024])
+2023-05-11 15:21:50,804 - mmfewshot - INFO - 00252/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:21:51,144 - mmfewshot - INFO - 00253/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:21:51,481 - mmfewshot - INFO - 00254/998 feats shape - torch.Size([291, 1024])
+2023-05-11 15:21:51,737 - mmfewshot - INFO - 00255/998 feats shape - torch.Size([237, 1024])
+2023-05-11 15:21:51,960 - mmfewshot - INFO - 00256/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:21:52,189 - mmfewshot - INFO - 00257/998 feats shape - torch.Size([399, 1024])
+2023-05-11 15:21:52,417 - mmfewshot - INFO - 00258/998 feats shape - torch.Size([306, 1024])
+2023-05-11 15:21:52,638 - mmfewshot - INFO - 00259/998 feats shape - torch.Size([195, 1024])
+2023-05-11 15:21:52,963 - mmfewshot - INFO - 00260/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:21:53,255 - mmfewshot - INFO - 00261/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:21:53,630 - mmfewshot - INFO - 00262/998 feats shape - torch.Size([207, 1024])
+2023-05-11 15:21:53,949 - mmfewshot - INFO - 00263/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:21:54,288 - mmfewshot - INFO - 00264/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:21:54,667 - mmfewshot - INFO - 00265/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:21:54,912 - mmfewshot - INFO - 00266/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:21:55,175 - mmfewshot - INFO - 00267/998 feats shape - torch.Size([291, 1024])
+2023-05-11 15:21:55,480 - mmfewshot - INFO - 00268/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:21:55,758 - mmfewshot - INFO - 00269/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:21:56,036 - mmfewshot - INFO - 00270/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:21:56,292 - mmfewshot - INFO - 00271/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:21:56,641 - mmfewshot - INFO - 00272/998 feats shape - torch.Size([291, 1024])
+2023-05-11 15:21:56,979 - mmfewshot - INFO - 00273/998 feats shape - torch.Size([279, 1024])
+2023-05-11 15:21:57,216 - mmfewshot - INFO - 00274/998 feats shape - torch.Size([216, 1024])
+2023-05-11 15:21:57,561 - mmfewshot - INFO - 00275/998 feats shape - torch.Size([279, 1024])
+2023-05-11 15:21:57,831 - mmfewshot - INFO - 00276/998 feats shape - torch.Size([363, 1024])
+2023-05-11 15:21:58,173 - mmfewshot - INFO - 00277/998 feats shape - torch.Size([306, 1024])
+2023-05-11 15:21:58,543 - mmfewshot - INFO - 00278/998 feats shape - torch.Size([468, 1024])
+2023-05-11 15:21:58,835 - mmfewshot - INFO - 00279/998 feats shape - torch.Size([420, 1024])
+2023-05-11 15:21:59,157 - mmfewshot - INFO - 00280/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:21:59,416 - mmfewshot - INFO - 00281/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:21:59,680 - mmfewshot - INFO - 00282/998 feats shape - torch.Size([426, 1024])
+2023-05-11 15:22:00,009 - mmfewshot - INFO - 00283/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:22:00,278 - mmfewshot - INFO - 00284/998 feats shape - torch.Size([282, 1024])
+2023-05-11 15:22:00,471 - mmfewshot - INFO - 00285/998 feats shape - torch.Size([342, 1024])
+2023-05-11 15:22:00,678 - mmfewshot - INFO - 00286/998 feats shape - torch.Size([84, 1024])
+2023-05-11 15:22:00,918 - mmfewshot - INFO - 00287/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:22:01,174 - mmfewshot - INFO - 00288/998 feats shape - torch.Size([333, 1024])
+2023-05-11 15:22:01,486 - mmfewshot - INFO - 00289/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:22:01,723 - mmfewshot - INFO - 00290/998 feats shape - torch.Size([123, 1024])
+2023-05-11 15:22:01,955 - mmfewshot - INFO - 00291/998 feats shape - torch.Size([180, 1024])
+2023-05-11 15:22:02,257 - mmfewshot - INFO - 00292/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:22:02,587 - mmfewshot - INFO - 00293/998 feats shape - torch.Size([150, 1024])
+2023-05-11 15:22:02,905 - mmfewshot - INFO - 00294/998 feats shape - torch.Size([216, 1024])
+2023-05-11 15:22:03,239 - mmfewshot - INFO - 00295/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:22:03,498 - mmfewshot - INFO - 00296/998 feats shape - torch.Size([282, 1024])
+2023-05-11 15:22:03,788 - mmfewshot - INFO - 00297/998 feats shape - torch.Size([135, 1024])
+2023-05-11 15:22:04,202 - mmfewshot - INFO - 00298/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:22:04,566 - mmfewshot - INFO - 00299/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:22:04,889 - mmfewshot - INFO - 00300/998 feats shape - torch.Size([147, 1024])
+2023-05-11 15:22:05,169 - mmfewshot - INFO - 00301/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:22:05,441 - mmfewshot - INFO - 00302/998 feats shape - torch.Size([363, 1024])
+2023-05-11 15:22:05,690 - mmfewshot - INFO - 00303/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:22:05,981 - mmfewshot - INFO - 00304/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:22:06,243 - mmfewshot - INFO - 00305/998 feats shape - torch.Size([252, 1024])
+2023-05-11 15:22:06,622 - mmfewshot - INFO - 00306/998 feats shape - torch.Size([348, 1024])
+2023-05-11 15:22:07,005 - mmfewshot - INFO - 00307/998 feats shape - torch.Size([213, 1024])
+2023-05-11 15:22:07,311 - mmfewshot - INFO - 00308/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:22:07,673 - mmfewshot - INFO - 00309/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:22:07,930 - mmfewshot - INFO - 00310/998 feats shape - torch.Size([321, 1024])
+2023-05-11 15:22:08,220 - mmfewshot - INFO - 00311/998 feats shape - torch.Size([300, 1024])
+2023-05-11 15:22:08,501 - mmfewshot - INFO - 00312/998 feats shape - torch.Size([66, 1024])
+2023-05-11 15:22:08,729 - mmfewshot - INFO - 00313/998 feats shape - torch.Size([384, 1024])
+2023-05-11 15:22:08,987 - mmfewshot - INFO - 00314/998 feats shape - torch.Size([78, 1024])
+2023-05-11 15:22:09,370 - mmfewshot - INFO - 00315/998 feats shape - torch.Size([216, 1024])
+2023-05-11 15:22:09,795 - mmfewshot - INFO - 00316/998 feats shape - torch.Size([396, 1024])
+2023-05-11 15:22:10,057 - mmfewshot - INFO - 00317/998 feats shape - torch.Size([141, 1024])
+2023-05-11 15:22:10,307 - mmfewshot - INFO - 00318/998 feats shape - torch.Size([408, 1024])
+2023-05-11 15:22:10,593 - mmfewshot - INFO - 00319/998 feats shape - torch.Size([447, 1024])
+2023-05-11 15:22:10,937 - mmfewshot - INFO - 00320/998 feats shape - torch.Size([207, 1024])
+2023-05-11 15:22:11,229 - mmfewshot - INFO - 00321/998 feats shape - torch.Size([147, 1024])
+2023-05-11 15:22:11,574 - mmfewshot - INFO - 00322/998 feats shape - torch.Size([213, 1024])
+2023-05-11 15:22:11,964 - mmfewshot - INFO - 00323/998 feats shape - torch.Size([102, 1024])
+2023-05-11 15:22:12,287 - mmfewshot - INFO - 00324/998 feats shape - torch.Size([207, 1024])
+2023-05-11 15:22:12,601 - mmfewshot - INFO - 00325/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:22:12,874 - mmfewshot - INFO - 00326/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:22:13,205 - mmfewshot - INFO - 00327/998 feats shape - torch.Size([216, 1024])
+2023-05-11 15:22:13,460 - mmfewshot - INFO - 00328/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:22:13,802 - mmfewshot - INFO - 00329/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:22:14,135 - mmfewshot - INFO - 00330/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:22:14,571 - mmfewshot - INFO - 00331/998 feats shape - torch.Size([354, 1024])
+2023-05-11 15:22:14,849 - mmfewshot - INFO - 00332/998 feats shape - torch.Size([387, 1024])
+2023-05-11 15:22:15,154 - mmfewshot - INFO - 00333/998 feats shape - torch.Size([318, 1024])
+2023-05-11 15:22:15,404 - mmfewshot - INFO - 00334/998 feats shape - torch.Size([258, 1024])
+2023-05-11 15:22:15,742 - mmfewshot - INFO - 00335/998 feats shape - torch.Size([447, 1024])
+2023-05-11 15:22:16,026 - mmfewshot - INFO - 00336/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:22:16,305 - mmfewshot - INFO - 00337/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:22:16,510 - mmfewshot - INFO - 00338/998 feats shape - torch.Size([237, 1024])
+2023-05-11 15:22:16,743 - mmfewshot - INFO - 00339/998 feats shape - torch.Size([123, 1024])
+2023-05-11 15:22:17,175 - mmfewshot - INFO - 00340/998 feats shape - torch.Size([129, 1024])
+2023-05-11 15:22:17,517 - mmfewshot - INFO - 00341/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:22:17,841 - mmfewshot - INFO - 00342/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:22:18,098 - mmfewshot - INFO - 00343/998 feats shape - torch.Size([216, 1024])
+2023-05-11 15:22:18,359 - mmfewshot - INFO - 00344/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:22:18,642 - mmfewshot - INFO - 00345/998 feats shape - torch.Size([237, 1024])
+2023-05-11 15:22:19,011 - mmfewshot - INFO - 00346/998 feats shape - torch.Size([198, 1024])
+2023-05-11 15:22:19,342 - mmfewshot - INFO - 00347/998 feats shape - torch.Size([129, 1024])
+2023-05-11 15:22:19,597 - mmfewshot - INFO - 00348/998 feats shape - torch.Size([387, 1024])
+2023-05-11 15:22:19,904 - mmfewshot - INFO - 00349/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:22:20,287 - mmfewshot - INFO - 00350/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:22:20,575 - mmfewshot - INFO - 00351/998 feats shape - torch.Size([396, 1024])
+2023-05-11 15:22:20,852 - mmfewshot - INFO - 00352/998 feats shape - torch.Size([306, 1024])
+2023-05-11 15:22:21,108 - mmfewshot - INFO - 00353/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:22:21,440 - mmfewshot - INFO - 00354/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:22:21,780 - mmfewshot - INFO - 00355/998 feats shape - torch.Size([174, 1024])
+2023-05-11 15:22:22,036 - mmfewshot - INFO - 00356/998 feats shape - torch.Size([285, 1024])
+2023-05-11 15:22:22,375 - mmfewshot - INFO - 00357/998 feats shape - torch.Size([333, 1024])
+2023-05-11 15:22:22,741 - mmfewshot - INFO - 00358/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:22:23,149 - mmfewshot - INFO - 00359/998 feats shape - torch.Size([213, 1024])
+2023-05-11 15:22:23,435 - mmfewshot - INFO - 00360/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:22:23,679 - mmfewshot - INFO - 00361/998 feats shape - torch.Size([180, 1024])
+2023-05-11 15:22:23,972 - mmfewshot - INFO - 00362/998 feats shape - torch.Size([729, 1024])
+2023-05-11 15:22:24,264 - mmfewshot - INFO - 00363/998 feats shape - torch.Size([120, 1024])
+2023-05-11 15:22:24,613 - mmfewshot - INFO - 00364/998 feats shape - torch.Size([99, 1024])
+2023-05-11 15:22:24,923 - mmfewshot - INFO - 00365/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:22:25,199 - mmfewshot - INFO - 00366/998 feats shape - torch.Size([387, 1024])
+2023-05-11 15:22:25,515 - mmfewshot - INFO - 00367/998 feats shape - torch.Size([105, 1024])
+2023-05-11 15:22:25,822 - mmfewshot - INFO - 00368/998 feats shape - torch.Size([489, 1024])
+2023-05-11 15:22:26,241 - mmfewshot - INFO - 00369/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:22:26,611 - mmfewshot - INFO - 00370/998 feats shape - torch.Size([120, 1024])
+2023-05-11 15:22:26,948 - mmfewshot - INFO - 00371/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:22:27,204 - mmfewshot - INFO - 00372/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:22:27,470 - mmfewshot - INFO - 00373/998 feats shape - torch.Size([294, 1024])
+2023-05-11 15:22:27,876 - mmfewshot - INFO - 00374/998 feats shape - torch.Size([150, 1024])
+2023-05-11 15:22:28,204 - mmfewshot - INFO - 00375/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:22:28,579 - mmfewshot - INFO - 00376/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:22:28,986 - mmfewshot - INFO - 00377/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:22:29,337 - mmfewshot - INFO - 00378/998 feats shape - torch.Size([411, 1024])
+2023-05-11 15:22:29,709 - mmfewshot - INFO - 00379/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:22:30,066 - mmfewshot - INFO - 00380/998 feats shape - torch.Size([486, 1024])
+2023-05-11 15:22:30,424 - mmfewshot - INFO - 00381/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:22:30,831 - mmfewshot - INFO - 00382/998 feats shape - torch.Size([195, 1024])
+2023-05-11 15:22:31,095 - mmfewshot - INFO - 00383/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:22:31,376 - mmfewshot - INFO - 00384/998 feats shape - torch.Size([156, 1024])
+2023-05-11 15:22:31,612 - mmfewshot - INFO - 00385/998 feats shape - torch.Size([279, 1024])
+2023-05-11 15:22:31,872 - mmfewshot - INFO - 00386/998 feats shape - torch.Size([315, 1024])
+2023-05-11 15:22:32,144 - mmfewshot - INFO - 00387/998 feats shape - torch.Size([462, 1024])
+2023-05-11 15:22:32,574 - mmfewshot - INFO - 00388/998 feats shape - torch.Size([393, 1024])
+2023-05-11 15:22:32,840 - mmfewshot - INFO - 00389/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:22:33,244 - mmfewshot - INFO - 00390/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:22:33,539 - mmfewshot - INFO - 00391/998 feats shape - torch.Size([144, 1024])
+2023-05-11 15:22:33,928 - mmfewshot - INFO - 00392/998 feats shape - torch.Size([390, 1024])
+2023-05-11 15:22:34,206 - mmfewshot - INFO - 00393/998 feats shape - torch.Size([291, 1024])
+2023-05-11 15:22:34,584 - mmfewshot - INFO - 00394/998 feats shape - torch.Size([237, 1024])
+2023-05-11 15:22:34,908 - mmfewshot - INFO - 00395/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:22:35,268 - mmfewshot - INFO - 00396/998 feats shape - torch.Size([219, 1024])
+2023-05-11 15:22:35,570 - mmfewshot - INFO - 00397/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:22:35,962 - mmfewshot - INFO - 00398/998 feats shape - torch.Size([222, 1024])
+2023-05-11 15:22:36,341 - mmfewshot - INFO - 00399/998 feats shape - torch.Size([183, 1024])
+2023-05-11 15:22:36,640 - mmfewshot - INFO - 00400/998 feats shape - torch.Size([225, 1024])
+2023-05-11 15:22:36,908 - mmfewshot - INFO - 00401/998 feats shape - torch.Size([120, 1024])
+2023-05-11 15:22:37,272 - mmfewshot - INFO - 00402/998 feats shape - torch.Size([342, 1024])
+2023-05-11 15:22:37,605 - mmfewshot - INFO - 00403/998 feats shape - torch.Size([225, 1024])
+2023-05-11 15:22:37,884 - mmfewshot - INFO - 00404/998 feats shape - torch.Size([354, 1024])
+2023-05-11 15:22:38,166 - mmfewshot - INFO - 00405/998 feats shape - torch.Size([336, 1024])
+2023-05-11 15:22:38,445 - mmfewshot - INFO - 00406/998 feats shape - torch.Size([150, 1024])
+2023-05-11 15:22:38,716 - mmfewshot - INFO - 00407/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:22:39,024 - mmfewshot - INFO - 00408/998 feats shape - torch.Size([399, 1024])
+2023-05-11 15:22:39,270 - mmfewshot - INFO - 00409/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:22:39,524 - mmfewshot - INFO - 00410/998 feats shape - torch.Size([228, 1024])
+2023-05-11 15:22:39,847 - mmfewshot - INFO - 00411/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:22:40,178 - mmfewshot - INFO - 00412/998 feats shape - torch.Size([390, 1024])
+2023-05-11 15:22:40,483 - mmfewshot - INFO - 00413/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:22:41,000 - mmfewshot - INFO - 00414/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:22:41,331 - mmfewshot - INFO - 00415/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:22:41,675 - mmfewshot - INFO - 00416/998 feats shape - torch.Size([195, 1024])
+2023-05-11 15:22:42,038 - mmfewshot - INFO - 00417/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:22:42,312 - mmfewshot - INFO - 00418/998 feats shape - torch.Size([306, 1024])
+2023-05-11 15:22:42,571 - mmfewshot - INFO - 00419/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:22:42,937 - mmfewshot - INFO - 00420/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:22:43,208 - mmfewshot - INFO - 00421/998 feats shape - torch.Size([207, 1024])
+2023-05-11 15:22:43,528 - mmfewshot - INFO - 00422/998 feats shape - torch.Size([156, 1024])
+2023-05-11 15:22:43,927 - mmfewshot - INFO - 00423/998 feats shape - torch.Size([117, 1024])
+2023-05-11 15:22:44,311 - mmfewshot - INFO - 00424/998 feats shape - torch.Size([345, 1024])
+2023-05-11 15:22:44,672 - mmfewshot - INFO - 00425/998 feats shape - torch.Size([186, 1024])
+2023-05-11 15:22:44,973 - mmfewshot - INFO - 00426/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:22:45,368 - mmfewshot - INFO - 00427/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:22:45,758 - mmfewshot - INFO - 00428/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:22:46,047 - mmfewshot - INFO - 00429/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:22:46,401 - mmfewshot - INFO - 00430/998 feats shape - torch.Size([342, 1024])
+2023-05-11 15:22:46,710 - mmfewshot - INFO - 00431/998 feats shape - torch.Size([117, 1024])
+2023-05-11 15:22:47,060 - mmfewshot - INFO - 00432/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:22:47,498 - mmfewshot - INFO - 00433/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:22:47,754 - mmfewshot - INFO - 00434/998 feats shape - torch.Size([174, 1024])
+2023-05-11 15:22:48,033 - mmfewshot - INFO - 00435/998 feats shape - torch.Size([213, 1024])
+2023-05-11 15:22:48,383 - mmfewshot - INFO - 00436/998 feats shape - torch.Size([339, 1024])
+2023-05-11 15:22:48,696 - mmfewshot - INFO - 00437/998 feats shape - torch.Size([249, 1024])
+2023-05-11 15:22:49,022 - mmfewshot - INFO - 00438/998 feats shape - torch.Size([309, 1024])
+2023-05-11 15:22:49,305 - mmfewshot - INFO - 00439/998 feats shape - torch.Size([123, 1024])
+2023-05-11 15:22:49,618 - mmfewshot - INFO - 00440/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:22:49,907 - mmfewshot - INFO - 00441/998 feats shape - torch.Size([219, 1024])
+2023-05-11 15:22:50,235 - mmfewshot - INFO - 00442/998 feats shape - torch.Size([366, 1024])
+2023-05-11 15:22:50,689 - mmfewshot - INFO - 00443/998 feats shape - torch.Size([324, 1024])
+2023-05-11 15:22:51,039 - mmfewshot - INFO - 00444/998 feats shape - torch.Size([123, 1024])
+2023-05-11 15:22:51,385 - mmfewshot - INFO - 00445/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:22:51,712 - mmfewshot - INFO - 00446/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:22:51,974 - mmfewshot - INFO - 00447/998 feats shape - torch.Size([399, 1024])
+2023-05-11 15:22:52,297 - mmfewshot - INFO - 00448/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:22:52,718 - mmfewshot - INFO - 00449/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:22:53,088 - mmfewshot - INFO - 00450/998 feats shape - torch.Size([333, 1024])
+2023-05-11 15:22:53,507 - mmfewshot - INFO - 00451/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:22:53,768 - mmfewshot - INFO - 00452/998 feats shape - torch.Size([282, 1024])
+2023-05-11 15:22:54,013 - mmfewshot - INFO - 00453/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:22:54,327 - mmfewshot - INFO - 00454/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:22:54,583 - mmfewshot - INFO - 00455/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:22:54,919 - mmfewshot - INFO - 00456/998 feats shape - torch.Size([372, 1024])
+2023-05-11 15:22:55,225 - mmfewshot - INFO - 00457/998 feats shape - torch.Size([321, 1024])
+2023-05-11 15:22:55,544 - mmfewshot - INFO - 00458/998 feats shape - torch.Size([252, 1024])
+2023-05-11 15:22:55,876 - mmfewshot - INFO - 00459/998 feats shape - torch.Size([99, 1024])
+2023-05-11 15:22:56,187 - mmfewshot - INFO - 00460/998 feats shape - torch.Size([108, 1024])
+2023-05-11 15:22:56,564 - mmfewshot - INFO - 00461/998 feats shape - torch.Size([369, 1024])
+2023-05-11 15:22:56,812 - mmfewshot - INFO - 00462/998 feats shape - torch.Size([519, 1024])
+2023-05-11 15:22:57,072 - mmfewshot - INFO - 00463/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:22:57,359 - mmfewshot - INFO - 00464/998 feats shape - torch.Size([480, 1024])
+2023-05-11 15:22:57,726 - mmfewshot - INFO - 00465/998 feats shape - torch.Size([462, 1024])
+2023-05-11 15:22:58,077 - mmfewshot - INFO - 00466/998 feats shape - torch.Size([333, 1024])
+2023-05-11 15:22:58,385 - mmfewshot - INFO - 00467/998 feats shape - torch.Size([279, 1024])
+2023-05-11 15:22:58,701 - mmfewshot - INFO - 00468/998 feats shape - torch.Size([213, 1024])
+2023-05-11 15:22:58,966 - mmfewshot - INFO - 00469/998 feats shape - torch.Size([258, 1024])
+2023-05-11 15:22:59,267 - mmfewshot - INFO - 00470/998 feats shape - torch.Size([441, 1024])
+2023-05-11 15:22:59,516 - mmfewshot - INFO - 00471/998 feats shape - torch.Size([492, 1024])
+2023-05-11 15:22:59,804 - mmfewshot - INFO - 00472/998 feats shape - torch.Size([294, 1024])
+2023-05-11 15:23:00,174 - mmfewshot - INFO - 00473/998 feats shape - torch.Size([195, 1024])
+2023-05-11 15:23:00,586 - mmfewshot - INFO - 00474/998 feats shape - torch.Size([459, 1024])
+2023-05-11 15:23:01,020 - mmfewshot - INFO - 00475/998 feats shape - torch.Size([303, 1024])
+2023-05-11 15:23:01,450 - mmfewshot - INFO - 00476/998 feats shape - torch.Size([462, 1024])
+2023-05-11 15:23:01,748 - mmfewshot - INFO - 00477/998 feats shape - torch.Size([156, 1024])
+2023-05-11 15:23:02,015 - mmfewshot - INFO - 00478/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:23:02,425 - mmfewshot - INFO - 00479/998 feats shape - torch.Size([87, 1024])
+2023-05-11 15:23:02,858 - mmfewshot - INFO - 00480/998 feats shape - torch.Size([183, 1024])
+2023-05-11 15:23:03,226 - mmfewshot - INFO - 00481/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:23:03,511 - mmfewshot - INFO - 00482/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:23:03,828 - mmfewshot - INFO - 00483/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:23:04,191 - mmfewshot - INFO - 00484/998 feats shape - torch.Size([162, 1024])
+2023-05-11 15:23:04,511 - mmfewshot - INFO - 00485/998 feats shape - torch.Size([96, 1024])
+2023-05-11 15:23:04,833 - mmfewshot - INFO - 00486/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:23:05,138 - mmfewshot - INFO - 00487/998 feats shape - torch.Size([549, 1024])
+2023-05-11 15:23:05,511 - mmfewshot - INFO - 00488/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:23:05,904 - mmfewshot - INFO - 00489/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:23:06,181 - mmfewshot - INFO - 00490/998 feats shape - torch.Size([300, 1024])
+2023-05-11 15:23:06,558 - mmfewshot - INFO - 00491/998 feats shape - torch.Size([285, 1024])
+2023-05-11 15:23:06,883 - mmfewshot - INFO - 00492/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:23:07,153 - mmfewshot - INFO - 00493/998 feats shape - torch.Size([408, 1024])
+2023-05-11 15:23:07,495 - mmfewshot - INFO - 00494/998 feats shape - torch.Size([72, 1024])
+2023-05-11 15:23:07,782 - mmfewshot - INFO - 00495/998 feats shape - torch.Size([453, 1024])
+2023-05-11 15:23:08,148 - mmfewshot - INFO - 00496/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:23:08,438 - mmfewshot - INFO - 00497/998 feats shape - torch.Size([258, 1024])
+2023-05-11 15:23:08,712 - mmfewshot - INFO - 00498/998 feats shape - torch.Size([321, 1024])
+2023-05-11 15:23:09,011 - mmfewshot - INFO - 00499/998 feats shape - torch.Size([195, 1024])
+2023-05-11 15:23:09,321 - mmfewshot - INFO - 00500/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:23:09,612 - mmfewshot - INFO - 00501/998 feats shape - torch.Size([144, 1024])
+2023-05-11 15:23:09,938 - mmfewshot - INFO - 00502/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:23:10,178 - mmfewshot - INFO - 00503/998 feats shape - torch.Size([99, 1024])
+2023-05-11 15:23:10,481 - mmfewshot - INFO - 00504/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:23:10,764 - mmfewshot - INFO - 00505/998 feats shape - torch.Size([198, 1024])
+2023-05-11 15:23:10,985 - mmfewshot - INFO - 00506/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:23:11,255 - mmfewshot - INFO - 00507/998 feats shape - torch.Size([258, 1024])
+2023-05-11 15:23:11,587 - mmfewshot - INFO - 00508/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:23:11,863 - mmfewshot - INFO - 00509/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:23:12,164 - mmfewshot - INFO - 00510/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:23:12,414 - mmfewshot - INFO - 00511/998 feats shape - torch.Size([318, 1024])
+2023-05-11 15:23:12,677 - mmfewshot - INFO - 00512/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:23:13,044 - mmfewshot - INFO - 00513/998 feats shape - torch.Size([345, 1024])
+2023-05-11 15:23:13,295 - mmfewshot - INFO - 00514/998 feats shape - torch.Size([435, 1024])
+2023-05-11 15:23:13,597 - mmfewshot - INFO - 00515/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:23:13,939 - mmfewshot - INFO - 00516/998 feats shape - torch.Size([564, 1024])
+2023-05-11 15:23:14,282 - mmfewshot - INFO - 00517/998 feats shape - torch.Size([135, 1024])
+2023-05-11 15:23:14,581 - mmfewshot - INFO - 00518/998 feats shape - torch.Size([138, 1024])
+2023-05-11 15:23:14,872 - mmfewshot - INFO - 00519/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:23:15,175 - mmfewshot - INFO - 00520/998 feats shape - torch.Size([108, 1024])
+2023-05-11 15:23:15,479 - mmfewshot - INFO - 00521/998 feats shape - torch.Size([300, 1024])
+2023-05-11 15:23:15,734 - mmfewshot - INFO - 00522/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:23:16,028 - mmfewshot - INFO - 00523/998 feats shape - torch.Size([132, 1024])
+2023-05-11 15:23:16,368 - mmfewshot - INFO - 00524/998 feats shape - torch.Size([402, 1024])
+2023-05-11 15:23:16,707 - mmfewshot - INFO - 00525/998 feats shape - torch.Size([486, 1024])
+2023-05-11 15:23:17,043 - mmfewshot - INFO - 00526/998 feats shape - torch.Size([141, 1024])
+2023-05-11 15:23:17,342 - mmfewshot - INFO - 00527/998 feats shape - torch.Size([66, 1024])
+2023-05-11 15:23:17,656 - mmfewshot - INFO - 00528/998 feats shape - torch.Size([123, 1024])
+2023-05-11 15:23:17,991 - mmfewshot - INFO - 00529/998 feats shape - torch.Size([147, 1024])
+2023-05-11 15:23:18,312 - mmfewshot - INFO - 00530/998 feats shape - torch.Size([315, 1024])
+2023-05-11 15:23:18,623 - mmfewshot - INFO - 00531/998 feats shape - torch.Size([237, 1024])
+2023-05-11 15:23:18,999 - mmfewshot - INFO - 00532/998 feats shape - torch.Size([270, 1024])
+2023-05-11 15:23:19,305 - mmfewshot - INFO - 00533/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:23:19,581 - mmfewshot - INFO - 00534/998 feats shape - torch.Size([207, 1024])
+2023-05-11 15:23:19,836 - mmfewshot - INFO - 00535/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:23:20,138 - mmfewshot - INFO - 00536/998 feats shape - torch.Size([429, 1024])
+2023-05-11 15:23:20,373 - mmfewshot - INFO - 00537/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:23:20,620 - mmfewshot - INFO - 00538/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:23:20,951 - mmfewshot - INFO - 00539/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:23:21,190 - mmfewshot - INFO - 00540/998 feats shape - torch.Size([336, 1024])
+2023-05-11 15:23:21,497 - mmfewshot - INFO - 00541/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:23:21,817 - mmfewshot - INFO - 00542/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:23:22,163 - mmfewshot - INFO - 00543/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:23:22,453 - mmfewshot - INFO - 00544/998 feats shape - torch.Size([90, 1024])
+2023-05-11 15:23:22,816 - mmfewshot - INFO - 00545/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:23:23,127 - mmfewshot - INFO - 00546/998 feats shape - torch.Size([222, 1024])
+2023-05-11 15:23:23,428 - mmfewshot - INFO - 00547/998 feats shape - torch.Size([105, 1024])
+2023-05-11 15:23:23,772 - mmfewshot - INFO - 00548/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:23:24,119 - mmfewshot - INFO - 00549/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:23:24,438 - mmfewshot - INFO - 00550/998 feats shape - torch.Size([150, 1024])
+2023-05-11 15:23:24,801 - mmfewshot - INFO - 00551/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:23:25,088 - mmfewshot - INFO - 00552/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:23:25,329 - mmfewshot - INFO - 00553/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:23:25,702 - mmfewshot - INFO - 00554/998 feats shape - torch.Size([252, 1024])
+2023-05-11 15:23:26,094 - mmfewshot - INFO - 00555/998 feats shape - torch.Size([405, 1024])
+2023-05-11 15:23:26,529 - mmfewshot - INFO - 00556/998 feats shape - torch.Size([186, 1024])
+2023-05-11 15:23:26,831 - mmfewshot - INFO - 00557/998 feats shape - torch.Size([333, 1024])
+2023-05-11 15:23:27,139 - mmfewshot - INFO - 00558/998 feats shape - torch.Size([252, 1024])
+2023-05-11 15:23:27,451 - mmfewshot - INFO - 00559/998 feats shape - torch.Size([162, 1024])
+2023-05-11 15:23:27,754 - mmfewshot - INFO - 00560/998 feats shape - torch.Size([156, 1024])
+2023-05-11 15:23:27,998 - mmfewshot - INFO - 00561/998 feats shape - torch.Size([405, 1024])
+2023-05-11 15:23:28,245 - mmfewshot - INFO - 00562/998 feats shape - torch.Size([336, 1024])
+2023-05-11 15:23:28,539 - mmfewshot - INFO - 00563/998 feats shape - torch.Size([75, 1024])
+2023-05-11 15:23:28,875 - mmfewshot - INFO - 00564/998 feats shape - torch.Size([396, 1024])
+2023-05-11 15:23:29,263 - mmfewshot - INFO - 00565/998 feats shape - torch.Size([270, 1024])
+2023-05-11 15:23:29,662 - mmfewshot - INFO - 00566/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:23:30,038 - mmfewshot - INFO - 00567/998 feats shape - torch.Size([258, 1024])
+2023-05-11 15:23:30,293 - mmfewshot - INFO - 00568/998 feats shape - torch.Size([306, 1024])
+2023-05-11 15:23:30,641 - mmfewshot - INFO - 00569/998 feats shape - torch.Size([141, 1024])
+2023-05-11 15:23:30,901 - mmfewshot - INFO - 00570/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:23:31,199 - mmfewshot - INFO - 00571/998 feats shape - torch.Size([375, 1024])
+2023-05-11 15:23:31,470 - mmfewshot - INFO - 00572/998 feats shape - torch.Size([246, 1024])
+2023-05-11 15:23:31,758 - mmfewshot - INFO - 00573/998 feats shape - torch.Size([150, 1024])
+2023-05-11 15:23:32,120 - mmfewshot - INFO - 00574/998 feats shape - torch.Size([351, 1024])
+2023-05-11 15:23:32,512 - mmfewshot - INFO - 00575/998 feats shape - torch.Size([102, 1024])
+2023-05-11 15:23:32,885 - mmfewshot - INFO - 00576/998 feats shape - torch.Size([138, 1024])
+2023-05-11 15:23:33,200 - mmfewshot - INFO - 00577/998 feats shape - torch.Size([357, 1024])
+2023-05-11 15:23:33,616 - mmfewshot - INFO - 00578/998 feats shape - torch.Size([108, 1024])
+2023-05-11 15:23:33,933 - mmfewshot - INFO - 00579/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:23:34,207 - mmfewshot - INFO - 00580/998 feats shape - torch.Size([180, 1024])
+2023-05-11 15:23:34,529 - mmfewshot - INFO - 00581/998 feats shape - torch.Size([351, 1024])
+2023-05-11 15:23:34,896 - mmfewshot - INFO - 00582/998 feats shape - torch.Size([57, 1024])
+2023-05-11 15:23:35,163 - mmfewshot - INFO - 00583/998 feats shape - torch.Size([375, 1024])
+2023-05-11 15:23:35,543 - mmfewshot - INFO - 00584/998 feats shape - torch.Size([228, 1024])
+2023-05-11 15:23:35,880 - mmfewshot - INFO - 00585/998 feats shape - torch.Size([282, 1024])
+2023-05-11 15:23:36,226 - mmfewshot - INFO - 00586/998 feats shape - torch.Size([135, 1024])
+2023-05-11 15:23:36,569 - mmfewshot - INFO - 00587/998 feats shape - torch.Size([315, 1024])
+2023-05-11 15:23:36,882 - mmfewshot - INFO - 00588/998 feats shape - torch.Size([357, 1024])
+2023-05-11 15:23:37,177 - mmfewshot - INFO - 00589/998 feats shape - torch.Size([168, 1024])
+2023-05-11 15:23:37,434 - mmfewshot - INFO - 00590/998 feats shape - torch.Size([354, 1024])
+2023-05-11 15:23:37,774 - mmfewshot - INFO - 00591/998 feats shape - torch.Size([273, 1024])
+2023-05-11 15:23:38,032 - mmfewshot - INFO - 00592/998 feats shape - torch.Size([384, 1024])
+2023-05-11 15:23:38,333 - mmfewshot - INFO - 00593/998 feats shape - torch.Size([495, 1024])
+2023-05-11 15:23:38,637 - mmfewshot - INFO - 00594/998 feats shape - torch.Size([222, 1024])
+2023-05-11 15:23:38,921 - mmfewshot - INFO - 00595/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:23:39,241 - mmfewshot - INFO - 00596/998 feats shape - torch.Size([144, 1024])
+2023-05-11 15:23:39,561 - mmfewshot - INFO - 00597/998 feats shape - torch.Size([156, 1024])
+2023-05-11 15:23:39,862 - mmfewshot - INFO - 00598/998 feats shape - torch.Size([150, 1024])
+2023-05-11 15:23:40,187 - mmfewshot - INFO - 00599/998 feats shape - torch.Size([93, 1024])
+2023-05-11 15:23:40,477 - mmfewshot - INFO - 00600/998 feats shape - torch.Size([141, 1024])
+2023-05-11 15:23:40,798 - mmfewshot - INFO - 00601/998 feats shape - torch.Size([291, 1024])
+2023-05-11 15:23:41,156 - mmfewshot - INFO - 00602/998 feats shape - torch.Size([432, 1024])
+2023-05-11 15:23:41,481 - mmfewshot - INFO - 00603/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:23:41,957 - mmfewshot - INFO - 00604/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:23:42,289 - mmfewshot - INFO - 00605/998 feats shape - torch.Size([78, 1024])
+2023-05-11 15:23:42,651 - mmfewshot - INFO - 00606/998 feats shape - torch.Size([102, 1024])
+2023-05-11 15:23:42,916 - mmfewshot - INFO - 00607/998 feats shape - torch.Size([333, 1024])
+2023-05-11 15:23:43,182 - mmfewshot - INFO - 00608/998 feats shape - torch.Size([381, 1024])
+2023-05-11 15:23:43,573 - mmfewshot - INFO - 00609/998 feats shape - torch.Size([285, 1024])
+2023-05-11 15:23:43,982 - mmfewshot - INFO - 00610/998 feats shape - torch.Size([246, 1024])
+2023-05-11 15:23:44,425 - mmfewshot - INFO - 00611/998 feats shape - torch.Size([372, 1024])
+2023-05-11 15:23:44,793 - mmfewshot - INFO - 00612/998 feats shape - torch.Size([132, 1024])
+2023-05-11 15:23:45,073 - mmfewshot - INFO - 00613/998 feats shape - torch.Size([249, 1024])
+2023-05-11 15:23:45,385 - mmfewshot - INFO - 00614/998 feats shape - torch.Size([258, 1024])
+2023-05-11 15:23:45,663 - mmfewshot - INFO - 00615/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:23:46,053 - mmfewshot - INFO - 00616/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:23:46,360 - mmfewshot - INFO - 00617/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:23:46,646 - mmfewshot - INFO - 00618/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:23:47,001 - mmfewshot - INFO - 00619/998 feats shape - torch.Size([237, 1024])
+2023-05-11 15:23:47,289 - mmfewshot - INFO - 00620/998 feats shape - torch.Size([459, 1024])
+2023-05-11 15:23:47,715 - mmfewshot - INFO - 00621/998 feats shape - torch.Size([327, 1024])
+2023-05-11 15:23:48,041 - mmfewshot - INFO - 00622/998 feats shape - torch.Size([117, 1024])
+2023-05-11 15:23:48,324 - mmfewshot - INFO - 00623/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:23:48,736 - mmfewshot - INFO - 00624/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:23:49,150 - mmfewshot - INFO - 00625/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:23:49,529 - mmfewshot - INFO - 00626/998 feats shape - torch.Size([90, 1024])
+2023-05-11 15:23:49,811 - mmfewshot - INFO - 00627/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:23:50,103 - mmfewshot - INFO - 00628/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:23:50,394 - mmfewshot - INFO - 00629/998 feats shape - torch.Size([228, 1024])
+2023-05-11 15:23:50,808 - mmfewshot - INFO - 00630/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:23:51,134 - mmfewshot - INFO - 00631/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:23:51,435 - mmfewshot - INFO - 00632/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:23:51,699 - mmfewshot - INFO - 00633/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:23:52,024 - mmfewshot - INFO - 00634/998 feats shape - torch.Size([99, 1024])
+2023-05-11 15:23:52,415 - mmfewshot - INFO - 00635/998 feats shape - torch.Size([174, 1024])
+2023-05-11 15:23:52,757 - mmfewshot - INFO - 00636/998 feats shape - torch.Size([168, 1024])
+2023-05-11 15:23:53,035 - mmfewshot - INFO - 00637/998 feats shape - torch.Size([456, 1024])
+2023-05-11 15:23:53,373 - mmfewshot - INFO - 00638/998 feats shape - torch.Size([282, 1024])
+2023-05-11 15:23:53,637 - mmfewshot - INFO - 00639/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:23:53,941 - mmfewshot - INFO - 00640/998 feats shape - torch.Size([375, 1024])
+2023-05-11 15:23:54,202 - mmfewshot - INFO - 00641/998 feats shape - torch.Size([423, 1024])
+2023-05-11 15:23:54,528 - mmfewshot - INFO - 00642/998 feats shape - torch.Size([492, 1024])
+2023-05-11 15:23:54,845 - mmfewshot - INFO - 00643/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:23:55,134 - mmfewshot - INFO - 00644/998 feats shape - torch.Size([258, 1024])
+2023-05-11 15:23:55,457 - mmfewshot - INFO - 00645/998 feats shape - torch.Size([393, 1024])
+2023-05-11 15:23:55,814 - mmfewshot - INFO - 00646/998 feats shape - torch.Size([198, 1024])
+2023-05-11 15:23:56,133 - mmfewshot - INFO - 00647/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:23:56,449 - mmfewshot - INFO - 00648/998 feats shape - torch.Size([363, 1024])
+2023-05-11 15:23:56,737 - mmfewshot - INFO - 00649/998 feats shape - torch.Size([168, 1024])
+2023-05-11 15:23:57,053 - mmfewshot - INFO - 00650/998 feats shape - torch.Size([384, 1024])
+2023-05-11 15:23:57,338 - mmfewshot - INFO - 00651/998 feats shape - torch.Size([351, 1024])
+2023-05-11 15:23:57,673 - mmfewshot - INFO - 00652/998 feats shape - torch.Size([108, 1024])
+2023-05-11 15:23:57,948 - mmfewshot - INFO - 00653/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:23:58,369 - mmfewshot - INFO - 00654/998 feats shape - torch.Size([90, 1024])
+2023-05-11 15:23:58,707 - mmfewshot - INFO - 00655/998 feats shape - torch.Size([213, 1024])
+2023-05-11 15:23:59,040 - mmfewshot - INFO - 00656/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:23:59,396 - mmfewshot - INFO - 00657/998 feats shape - torch.Size([147, 1024])
+2023-05-11 15:23:59,644 - mmfewshot - INFO - 00658/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:23:59,935 - mmfewshot - INFO - 00659/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:24:00,280 - mmfewshot - INFO - 00660/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:24:00,625 - mmfewshot - INFO - 00661/998 feats shape - torch.Size([381, 1024])
+2023-05-11 15:24:00,970 - mmfewshot - INFO - 00662/998 feats shape - torch.Size([348, 1024])
+2023-05-11 15:24:01,333 - mmfewshot - INFO - 00663/998 feats shape - torch.Size([111, 1024])
+2023-05-11 15:24:01,694 - mmfewshot - INFO - 00664/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:24:02,001 - mmfewshot - INFO - 00665/998 feats shape - torch.Size([453, 1024])
+2023-05-11 15:24:02,408 - mmfewshot - INFO - 00666/998 feats shape - torch.Size([318, 1024])
+2023-05-11 15:24:02,711 - mmfewshot - INFO - 00667/998 feats shape - torch.Size([186, 1024])
+2023-05-11 15:24:03,050 - mmfewshot - INFO - 00668/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:24:03,402 - mmfewshot - INFO - 00669/998 feats shape - torch.Size([135, 1024])
+2023-05-11 15:24:03,702 - mmfewshot - INFO - 00670/998 feats shape - torch.Size([315, 1024])
+2023-05-11 15:24:04,053 - mmfewshot - INFO - 00671/998 feats shape - torch.Size([246, 1024])
+2023-05-11 15:24:04,430 - mmfewshot - INFO - 00672/998 feats shape - torch.Size([81, 1024])
+2023-05-11 15:24:04,759 - mmfewshot - INFO - 00673/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:24:05,028 - mmfewshot - INFO - 00674/998 feats shape - torch.Size([282, 1024])
+2023-05-11 15:24:05,325 - mmfewshot - INFO - 00675/998 feats shape - torch.Size([180, 1024])
+2023-05-11 15:24:05,684 - mmfewshot - INFO - 00676/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:24:06,021 - mmfewshot - INFO - 00677/998 feats shape - torch.Size([105, 1024])
+2023-05-11 15:24:06,331 - mmfewshot - INFO - 00678/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:24:06,738 - mmfewshot - INFO - 00679/998 feats shape - torch.Size([141, 1024])
+2023-05-11 15:24:07,140 - mmfewshot - INFO - 00680/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:24:07,432 - mmfewshot - INFO - 00681/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:24:07,840 - mmfewshot - INFO - 00682/998 feats shape - torch.Size([225, 1024])
+2023-05-11 15:24:08,152 - mmfewshot - INFO - 00683/998 feats shape - torch.Size([246, 1024])
+2023-05-11 15:24:08,511 - mmfewshot - INFO - 00684/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:24:08,786 - mmfewshot - INFO - 00685/998 feats shape - torch.Size([360, 1024])
+2023-05-11 15:24:09,204 - mmfewshot - INFO - 00686/998 feats shape - torch.Size([282, 1024])
+2023-05-11 15:24:09,592 - mmfewshot - INFO - 00687/998 feats shape - torch.Size([222, 1024])
+2023-05-11 15:24:09,846 - mmfewshot - INFO - 00688/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:24:10,156 - mmfewshot - INFO - 00689/998 feats shape - torch.Size([384, 1024])
+2023-05-11 15:24:10,464 - mmfewshot - INFO - 00690/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:24:10,784 - mmfewshot - INFO - 00691/998 feats shape - torch.Size([408, 1024])
+2023-05-11 15:24:11,103 - mmfewshot - INFO - 00692/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:24:11,425 - mmfewshot - INFO - 00693/998 feats shape - torch.Size([105, 1024])
+2023-05-11 15:24:11,701 - mmfewshot - INFO - 00694/998 feats shape - torch.Size([405, 1024])
+2023-05-11 15:24:12,053 - mmfewshot - INFO - 00695/998 feats shape - torch.Size([174, 1024])
+2023-05-11 15:24:12,445 - mmfewshot - INFO - 00696/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:24:12,788 - mmfewshot - INFO - 00697/998 feats shape - torch.Size([315, 1024])
+2023-05-11 15:24:13,041 - mmfewshot - INFO - 00698/998 feats shape - torch.Size([282, 1024])
+2023-05-11 15:24:13,293 - mmfewshot - INFO - 00699/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:24:13,601 - mmfewshot - INFO - 00700/998 feats shape - torch.Size([345, 1024])
+2023-05-11 15:24:13,900 - mmfewshot - INFO - 00701/998 feats shape - torch.Size([150, 1024])
+2023-05-11 15:24:14,216 - mmfewshot - INFO - 00702/998 feats shape - torch.Size([315, 1024])
+2023-05-11 15:24:14,599 - mmfewshot - INFO - 00703/998 feats shape - torch.Size([147, 1024])
+2023-05-11 15:24:14,992 - mmfewshot - INFO - 00704/998 feats shape - torch.Size([162, 1024])
+2023-05-11 15:24:15,255 - mmfewshot - INFO - 00705/998 feats shape - torch.Size([426, 1024])
+2023-05-11 15:24:15,567 - mmfewshot - INFO - 00706/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:24:15,916 - mmfewshot - INFO - 00707/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:24:16,223 - mmfewshot - INFO - 00708/998 feats shape - torch.Size([273, 1024])
+2023-05-11 15:24:16,455 - mmfewshot - INFO - 00709/998 feats shape - torch.Size([213, 1024])
+2023-05-11 15:24:16,730 - mmfewshot - INFO - 00710/998 feats shape - torch.Size([480, 1024])
+2023-05-11 15:24:17,039 - mmfewshot - INFO - 00711/998 feats shape - torch.Size([180, 1024])
+2023-05-11 15:24:17,392 - mmfewshot - INFO - 00712/998 feats shape - torch.Size([195, 1024])
+2023-05-11 15:24:17,733 - mmfewshot - INFO - 00713/998 feats shape - torch.Size([438, 1024])
+2023-05-11 15:24:18,015 - mmfewshot - INFO - 00714/998 feats shape - torch.Size([279, 1024])
+2023-05-11 15:24:18,375 - mmfewshot - INFO - 00715/998 feats shape - torch.Size([294, 1024])
+2023-05-11 15:24:18,738 - mmfewshot - INFO - 00716/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:24:18,993 - mmfewshot - INFO - 00717/998 feats shape - torch.Size([222, 1024])
+2023-05-11 15:24:19,356 - mmfewshot - INFO - 00718/998 feats shape - torch.Size([147, 1024])
+2023-05-11 15:24:19,679 - mmfewshot - INFO - 00719/998 feats shape - torch.Size([327, 1024])
+2023-05-11 15:24:19,985 - mmfewshot - INFO - 00720/998 feats shape - torch.Size([324, 1024])
+2023-05-11 15:24:20,312 - mmfewshot - INFO - 00721/998 feats shape - torch.Size([465, 1024])
+2023-05-11 15:24:20,620 - mmfewshot - INFO - 00722/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:24:21,016 - mmfewshot - INFO - 00723/998 feats shape - torch.Size([93, 1024])
+2023-05-11 15:24:21,387 - mmfewshot - INFO - 00724/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:24:21,659 - mmfewshot - INFO - 00725/998 feats shape - torch.Size([399, 1024])
+2023-05-11 15:24:22,035 - mmfewshot - INFO - 00726/998 feats shape - torch.Size([315, 1024])
+2023-05-11 15:24:22,323 - mmfewshot - INFO - 00727/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:24:22,701 - mmfewshot - INFO - 00728/998 feats shape - torch.Size([216, 1024])
+2023-05-11 15:24:23,073 - mmfewshot - INFO - 00729/998 feats shape - torch.Size([138, 1024])
+2023-05-11 15:24:23,354 - mmfewshot - INFO - 00730/998 feats shape - torch.Size([132, 1024])
+2023-05-11 15:24:23,671 - mmfewshot - INFO - 00731/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:24:23,965 - mmfewshot - INFO - 00732/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:24:24,269 - mmfewshot - INFO - 00733/998 feats shape - torch.Size([423, 1024])
+2023-05-11 15:24:24,538 - mmfewshot - INFO - 00734/998 feats shape - torch.Size([228, 1024])
+2023-05-11 15:24:24,836 - mmfewshot - INFO - 00735/998 feats shape - torch.Size([228, 1024])
+2023-05-11 15:24:25,194 - mmfewshot - INFO - 00736/998 feats shape - torch.Size([120, 1024])
+2023-05-11 15:24:25,564 - mmfewshot - INFO - 00737/998 feats shape - torch.Size([399, 1024])
+2023-05-11 15:24:25,892 - mmfewshot - INFO - 00738/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:24:26,230 - mmfewshot - INFO - 00739/998 feats shape - torch.Size([351, 1024])
+2023-05-11 15:24:26,573 - mmfewshot - INFO - 00740/998 feats shape - torch.Size([384, 1024])
+2023-05-11 15:24:26,896 - mmfewshot - INFO - 00741/998 feats shape - torch.Size([291, 1024])
+2023-05-11 15:24:27,223 - mmfewshot - INFO - 00742/998 feats shape - torch.Size([252, 1024])
+2023-05-11 15:24:27,554 - mmfewshot - INFO - 00743/998 feats shape - torch.Size([237, 1024])
+2023-05-11 15:24:27,991 - mmfewshot - INFO - 00744/998 feats shape - torch.Size([87, 1024])
+2023-05-11 15:24:28,320 - mmfewshot - INFO - 00745/998 feats shape - torch.Size([306, 1024])
+2023-05-11 15:24:28,658 - mmfewshot - INFO - 00746/998 feats shape - torch.Size([378, 1024])
+2023-05-11 15:24:29,143 - mmfewshot - INFO - 00747/998 feats shape - torch.Size([486, 1024])
+2023-05-11 15:24:29,489 - mmfewshot - INFO - 00748/998 feats shape - torch.Size([516, 1024])
+2023-05-11 15:24:29,808 - mmfewshot - INFO - 00749/998 feats shape - torch.Size([102, 1024])
+2023-05-11 15:24:30,136 - mmfewshot - INFO - 00750/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:24:30,433 - mmfewshot - INFO - 00751/998 feats shape - torch.Size([273, 1024])
+2023-05-11 15:24:30,797 - mmfewshot - INFO - 00752/998 feats shape - torch.Size([135, 1024])
+2023-05-11 15:24:31,089 - mmfewshot - INFO - 00753/998 feats shape - torch.Size([60, 1024])
+2023-05-11 15:24:31,465 - mmfewshot - INFO - 00754/998 feats shape - torch.Size([222, 1024])
+2023-05-11 15:24:31,815 - mmfewshot - INFO - 00755/998 feats shape - torch.Size([54, 1024])
+2023-05-11 15:24:32,190 - mmfewshot - INFO - 00756/998 feats shape - torch.Size([144, 1024])
+2023-05-11 15:24:32,555 - mmfewshot - INFO - 00757/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:24:33,006 - mmfewshot - INFO - 00758/998 feats shape - torch.Size([321, 1024])
+2023-05-11 15:24:33,353 - mmfewshot - INFO - 00759/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:24:33,763 - mmfewshot - INFO - 00760/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:24:34,080 - mmfewshot - INFO - 00761/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:24:34,443 - mmfewshot - INFO - 00762/998 feats shape - torch.Size([180, 1024])
+2023-05-11 15:24:34,754 - mmfewshot - INFO - 00763/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:24:35,212 - mmfewshot - INFO - 00764/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:24:35,671 - mmfewshot - INFO - 00765/998 feats shape - torch.Size([333, 1024])
+2023-05-11 15:24:35,992 - mmfewshot - INFO - 00766/998 feats shape - torch.Size([324, 1024])
+2023-05-11 15:24:36,298 - mmfewshot - INFO - 00767/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:24:36,697 - mmfewshot - INFO - 00768/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:24:37,137 - mmfewshot - INFO - 00769/998 feats shape - torch.Size([96, 1024])
+2023-05-11 15:24:37,449 - mmfewshot - INFO - 00770/998 feats shape - torch.Size([108, 1024])
+2023-05-11 15:24:37,842 - mmfewshot - INFO - 00771/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:24:38,158 - mmfewshot - INFO - 00772/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:24:38,510 - mmfewshot - INFO - 00773/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:24:38,767 - mmfewshot - INFO - 00774/998 feats shape - torch.Size([219, 1024])
+2023-05-11 15:24:38,989 - mmfewshot - INFO - 00775/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:24:39,344 - mmfewshot - INFO - 00776/998 feats shape - torch.Size([480, 1024])
+2023-05-11 15:24:39,693 - mmfewshot - INFO - 00777/998 feats shape - torch.Size([51, 1024])
+2023-05-11 15:24:40,025 - mmfewshot - INFO - 00778/998 feats shape - torch.Size([219, 1024])
+2023-05-11 15:24:40,335 - mmfewshot - INFO - 00779/998 feats shape - torch.Size([168, 1024])
+2023-05-11 15:24:40,700 - mmfewshot - INFO - 00780/998 feats shape - torch.Size([174, 1024])
+2023-05-11 15:24:41,093 - mmfewshot - INFO - 00781/998 feats shape - torch.Size([132, 1024])
+2023-05-11 15:24:41,433 - mmfewshot - INFO - 00782/998 feats shape - torch.Size([138, 1024])
+2023-05-11 15:24:41,809 - mmfewshot - INFO - 00783/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:24:42,126 - mmfewshot - INFO - 00784/998 feats shape - torch.Size([258, 1024])
+2023-05-11 15:24:42,390 - mmfewshot - INFO - 00785/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:24:42,687 - mmfewshot - INFO - 00786/998 feats shape - torch.Size([294, 1024])
+2023-05-11 15:24:43,000 - mmfewshot - INFO - 00787/998 feats shape - torch.Size([456, 1024])
+2023-05-11 15:24:43,371 - mmfewshot - INFO - 00788/998 feats shape - torch.Size([285, 1024])
+2023-05-11 15:24:43,760 - mmfewshot - INFO - 00789/998 feats shape - torch.Size([135, 1024])
+2023-05-11 15:24:44,095 - mmfewshot - INFO - 00790/998 feats shape - torch.Size([357, 1024])
+2023-05-11 15:24:44,418 - mmfewshot - INFO - 00791/998 feats shape - torch.Size([444, 1024])
+2023-05-11 15:24:44,844 - mmfewshot - INFO - 00792/998 feats shape - torch.Size([279, 1024])
+2023-05-11 15:24:45,167 - mmfewshot - INFO - 00793/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:24:45,478 - mmfewshot - INFO - 00794/998 feats shape - torch.Size([246, 1024])
+2023-05-11 15:24:45,855 - mmfewshot - INFO - 00795/998 feats shape - torch.Size([282, 1024])
+2023-05-11 15:24:46,233 - mmfewshot - INFO - 00796/998 feats shape - torch.Size([219, 1024])
+2023-05-11 15:24:46,598 - mmfewshot - INFO - 00797/998 feats shape - torch.Size([306, 1024])
+2023-05-11 15:24:46,938 - mmfewshot - INFO - 00798/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:24:47,246 - mmfewshot - INFO - 00799/998 feats shape - torch.Size([222, 1024])
+2023-05-11 15:24:47,597 - mmfewshot - INFO - 00800/998 feats shape - torch.Size([270, 1024])
+2023-05-11 15:24:47,879 - mmfewshot - INFO - 00801/998 feats shape - torch.Size([108, 1024])
+2023-05-11 15:24:48,261 - mmfewshot - INFO - 00802/998 feats shape - torch.Size([327, 1024])
+2023-05-11 15:24:48,540 - mmfewshot - INFO - 00803/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:24:48,843 - mmfewshot - INFO - 00804/998 feats shape - torch.Size([150, 1024])
+2023-05-11 15:24:49,225 - mmfewshot - INFO - 00805/998 feats shape - torch.Size([102, 1024])
+2023-05-11 15:24:49,624 - mmfewshot - INFO - 00806/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:24:49,964 - mmfewshot - INFO - 00807/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:24:50,288 - mmfewshot - INFO - 00808/998 feats shape - torch.Size([426, 1024])
+2023-05-11 15:24:50,587 - mmfewshot - INFO - 00809/998 feats shape - torch.Size([180, 1024])
+2023-05-11 15:24:50,869 - mmfewshot - INFO - 00810/998 feats shape - torch.Size([87, 1024])
+2023-05-11 15:24:51,338 - mmfewshot - INFO - 00811/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:24:51,703 - mmfewshot - INFO - 00812/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:24:52,090 - mmfewshot - INFO - 00813/998 feats shape - torch.Size([432, 1024])
+2023-05-11 15:24:52,432 - mmfewshot - INFO - 00814/998 feats shape - torch.Size([555, 1024])
+2023-05-11 15:24:52,762 - mmfewshot - INFO - 00815/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:24:53,077 - mmfewshot - INFO - 00816/998 feats shape - torch.Size([270, 1024])
+2023-05-11 15:24:53,437 - mmfewshot - INFO - 00817/998 feats shape - torch.Size([369, 1024])
+2023-05-11 15:24:53,819 - mmfewshot - INFO - 00818/998 feats shape - torch.Size([261, 1024])
+2023-05-11 15:24:54,173 - mmfewshot - INFO - 00819/998 feats shape - torch.Size([249, 1024])
+2023-05-11 15:24:54,493 - mmfewshot - INFO - 00820/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:24:54,764 - mmfewshot - INFO - 00821/998 feats shape - torch.Size([300, 1024])
+2023-05-11 15:24:55,125 - mmfewshot - INFO - 00822/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:24:55,457 - mmfewshot - INFO - 00823/998 feats shape - torch.Size([273, 1024])
+2023-05-11 15:24:55,844 - mmfewshot - INFO - 00824/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:24:56,240 - mmfewshot - INFO - 00825/998 feats shape - torch.Size([465, 1024])
+2023-05-11 15:24:56,652 - mmfewshot - INFO - 00826/998 feats shape - torch.Size([237, 1024])
+2023-05-11 15:24:57,011 - mmfewshot - INFO - 00827/998 feats shape - torch.Size([105, 1024])
+2023-05-11 15:24:57,416 - mmfewshot - INFO - 00828/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:24:57,799 - mmfewshot - INFO - 00829/998 feats shape - torch.Size([318, 1024])
+2023-05-11 15:24:58,201 - mmfewshot - INFO - 00830/998 feats shape - torch.Size([75, 1024])
+2023-05-11 15:24:58,567 - mmfewshot - INFO - 00831/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:24:58,811 - mmfewshot - INFO - 00832/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:24:59,093 - mmfewshot - INFO - 00833/998 feats shape - torch.Size([411, 1024])
+2023-05-11 15:24:59,392 - mmfewshot - INFO - 00834/998 feats shape - torch.Size([123, 1024])
+2023-05-11 15:24:59,711 - mmfewshot - INFO - 00835/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:25:00,105 - mmfewshot - INFO - 00836/998 feats shape - torch.Size([165, 1024])
+2023-05-11 15:25:00,400 - mmfewshot - INFO - 00837/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:25:00,679 - mmfewshot - INFO - 00838/998 feats shape - torch.Size([405, 1024])
+2023-05-11 15:25:01,052 - mmfewshot - INFO - 00839/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:25:01,407 - mmfewshot - INFO - 00840/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:25:01,729 - mmfewshot - INFO - 00841/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:25:01,960 - mmfewshot - INFO - 00842/998 feats shape - torch.Size([507, 1024])
+2023-05-11 15:25:02,228 - mmfewshot - INFO - 00843/998 feats shape - torch.Size([453, 1024])
+2023-05-11 15:25:02,618 - mmfewshot - INFO - 00844/998 feats shape - torch.Size([318, 1024])
+2023-05-11 15:25:02,933 - mmfewshot - INFO - 00845/998 feats shape - torch.Size([210, 1024])
+2023-05-11 15:25:03,201 - mmfewshot - INFO - 00846/998 feats shape - torch.Size([411, 1024])
+2023-05-11 15:25:03,474 - mmfewshot - INFO - 00847/998 feats shape - torch.Size([279, 1024])
+2023-05-11 15:25:03,783 - mmfewshot - INFO - 00848/998 feats shape - torch.Size([312, 1024])
+2023-05-11 15:25:04,136 - mmfewshot - INFO - 00849/998 feats shape - torch.Size([246, 1024])
+2023-05-11 15:25:04,425 - mmfewshot - INFO - 00850/998 feats shape - torch.Size([363, 1024])
+2023-05-11 15:25:04,715 - mmfewshot - INFO - 00851/998 feats shape - torch.Size([150, 1024])
+2023-05-11 15:25:05,032 - mmfewshot - INFO - 00852/998 feats shape - torch.Size([456, 1024])
+2023-05-11 15:25:05,334 - mmfewshot - INFO - 00853/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:25:05,644 - mmfewshot - INFO - 00854/998 feats shape - torch.Size([51, 1024])
+2023-05-11 15:25:05,965 - mmfewshot - INFO - 00855/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:25:06,241 - mmfewshot - INFO - 00856/998 feats shape - torch.Size([324, 1024])
+2023-05-11 15:25:06,567 - mmfewshot - INFO - 00857/998 feats shape - torch.Size([156, 1024])
+2023-05-11 15:25:06,863 - mmfewshot - INFO - 00858/998 feats shape - torch.Size([96, 1024])
+2023-05-11 15:25:07,229 - mmfewshot - INFO - 00859/998 feats shape - torch.Size([180, 1024])
+2023-05-11 15:25:07,670 - mmfewshot - INFO - 00860/998 feats shape - torch.Size([90, 1024])
+2023-05-11 15:25:08,086 - mmfewshot - INFO - 00861/998 feats shape - torch.Size([216, 1024])
+2023-05-11 15:25:08,380 - mmfewshot - INFO - 00862/998 feats shape - torch.Size([207, 1024])
+2023-05-11 15:25:08,753 - mmfewshot - INFO - 00863/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:25:09,165 - mmfewshot - INFO - 00864/998 feats shape - torch.Size([138, 1024])
+2023-05-11 15:25:09,585 - mmfewshot - INFO - 00865/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:25:09,947 - mmfewshot - INFO - 00866/998 feats shape - torch.Size([348, 1024])
+2023-05-11 15:25:10,292 - mmfewshot - INFO - 00867/998 feats shape - torch.Size([183, 1024])
+2023-05-11 15:25:10,618 - mmfewshot - INFO - 00868/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:25:10,968 - mmfewshot - INFO - 00869/998 feats shape - torch.Size([138, 1024])
+2023-05-11 15:25:11,282 - mmfewshot - INFO - 00870/998 feats shape - torch.Size([270, 1024])
+2023-05-11 15:25:11,575 - mmfewshot - INFO - 00871/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:25:11,913 - mmfewshot - INFO - 00872/998 feats shape - torch.Size([303, 1024])
+2023-05-11 15:25:12,286 - mmfewshot - INFO - 00873/998 feats shape - torch.Size([96, 1024])
+2023-05-11 15:25:12,699 - mmfewshot - INFO - 00874/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:25:13,037 - mmfewshot - INFO - 00875/998 feats shape - torch.Size([216, 1024])
+2023-05-11 15:25:13,382 - mmfewshot - INFO - 00876/998 feats shape - torch.Size([159, 1024])
+2023-05-11 15:25:13,639 - mmfewshot - INFO - 00877/998 feats shape - torch.Size([120, 1024])
+2023-05-11 15:25:13,974 - mmfewshot - INFO - 00878/998 feats shape - torch.Size([282, 1024])
+2023-05-11 15:25:14,284 - mmfewshot - INFO - 00879/998 feats shape - torch.Size([351, 1024])
+2023-05-11 15:25:14,661 - mmfewshot - INFO - 00880/998 feats shape - torch.Size([162, 1024])
+2023-05-11 15:25:15,020 - mmfewshot - INFO - 00881/998 feats shape - torch.Size([150, 1024])
+2023-05-11 15:25:15,308 - mmfewshot - INFO - 00882/998 feats shape - torch.Size([174, 1024])
+2023-05-11 15:25:15,724 - mmfewshot - INFO - 00883/998 feats shape - torch.Size([126, 1024])
+2023-05-11 15:25:16,043 - mmfewshot - INFO - 00884/998 feats shape - torch.Size([339, 1024])
+2023-05-11 15:25:16,389 - mmfewshot - INFO - 00885/998 feats shape - torch.Size([285, 1024])
+2023-05-11 15:25:16,735 - mmfewshot - INFO - 00886/998 feats shape - torch.Size([351, 1024])
+2023-05-11 15:25:17,018 - mmfewshot - INFO - 00887/998 feats shape - torch.Size([426, 1024])
+2023-05-11 15:25:17,363 - mmfewshot - INFO - 00888/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:25:17,776 - mmfewshot - INFO - 00889/998 feats shape - torch.Size([138, 1024])
+2023-05-11 15:25:18,179 - mmfewshot - INFO - 00890/998 feats shape - torch.Size([531, 1024])
+2023-05-11 15:25:18,439 - mmfewshot - INFO - 00891/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:25:18,850 - mmfewshot - INFO - 00892/998 feats shape - torch.Size([330, 1024])
+2023-05-11 15:25:19,177 - mmfewshot - INFO - 00893/998 feats shape - torch.Size([195, 1024])
+2023-05-11 15:25:19,447 - mmfewshot - INFO - 00894/998 feats shape - torch.Size([339, 1024])
+2023-05-11 15:25:19,732 - mmfewshot - INFO - 00895/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:25:20,086 - mmfewshot - INFO - 00896/998 feats shape - torch.Size([348, 1024])
+2023-05-11 15:25:20,480 - mmfewshot - INFO - 00897/998 feats shape - torch.Size([114, 1024])
+2023-05-11 15:25:20,751 - mmfewshot - INFO - 00898/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:25:21,022 - mmfewshot - INFO - 00899/998 feats shape - torch.Size([246, 1024])
+2023-05-11 15:25:21,586 - mmfewshot - INFO - 00900/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:25:21,894 - mmfewshot - INFO - 00901/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:25:22,174 - mmfewshot - INFO - 00902/998 feats shape - torch.Size([249, 1024])
+2023-05-11 15:25:22,441 - mmfewshot - INFO - 00903/998 feats shape - torch.Size([390, 1024])
+2023-05-11 15:25:22,749 - mmfewshot - INFO - 00904/998 feats shape - torch.Size([318, 1024])
+2023-05-11 15:25:23,108 - mmfewshot - INFO - 00905/998 feats shape - torch.Size([195, 1024])
+2023-05-11 15:25:23,335 - mmfewshot - INFO - 00906/998 feats shape - torch.Size([384, 1024])
+2023-05-11 15:25:23,589 - mmfewshot - INFO - 00907/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:25:23,936 - mmfewshot - INFO - 00908/998 feats shape - torch.Size([366, 1024])
+2023-05-11 15:25:24,293 - mmfewshot - INFO - 00909/998 feats shape - torch.Size([222, 1024])
+2023-05-11 15:25:24,593 - mmfewshot - INFO - 00910/998 feats shape - torch.Size([198, 1024])
+2023-05-11 15:25:24,951 - mmfewshot - INFO - 00911/998 feats shape - torch.Size([186, 1024])
+2023-05-11 15:25:25,344 - mmfewshot - INFO - 00912/998 feats shape - torch.Size([510, 1024])
+2023-05-11 15:25:25,665 - mmfewshot - INFO - 00913/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:25:25,988 - mmfewshot - INFO - 00914/998 feats shape - torch.Size([174, 1024])
+2023-05-11 15:25:26,283 - mmfewshot - INFO - 00915/998 feats shape - torch.Size([225, 1024])
+2023-05-11 15:25:26,604 - mmfewshot - INFO - 00916/998 feats shape - torch.Size([297, 1024])
+2023-05-11 15:25:26,986 - mmfewshot - INFO - 00917/998 feats shape - torch.Size([105, 1024])
+2023-05-11 15:25:27,448 - mmfewshot - INFO - 00918/998 feats shape - torch.Size([123, 1024])
+2023-05-11 15:25:27,767 - mmfewshot - INFO - 00919/998 feats shape - torch.Size([420, 1024])
+2023-05-11 15:25:28,113 - mmfewshot - INFO - 00920/998 feats shape - torch.Size([351, 1024])
+2023-05-11 15:25:28,486 - mmfewshot - INFO - 00921/998 feats shape - torch.Size([228, 1024])
+2023-05-11 15:25:28,832 - mmfewshot - INFO - 00922/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:25:29,126 - mmfewshot - INFO - 00923/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:25:29,433 - mmfewshot - INFO - 00924/998 feats shape - torch.Size([123, 1024])
+2023-05-11 15:25:29,921 - mmfewshot - INFO - 00925/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:25:30,222 - mmfewshot - INFO - 00926/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:25:30,505 - mmfewshot - INFO - 00927/998 feats shape - torch.Size([174, 1024])
+2023-05-11 15:25:30,843 - mmfewshot - INFO - 00928/998 feats shape - torch.Size([171, 1024])
+2023-05-11 15:25:31,186 - mmfewshot - INFO - 00929/998 feats shape - torch.Size([153, 1024])
+2023-05-11 15:25:31,513 - mmfewshot - INFO - 00930/998 feats shape - torch.Size([96, 1024])
+2023-05-11 15:25:31,804 - mmfewshot - INFO - 00931/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:25:32,070 - mmfewshot - INFO - 00932/998 feats shape - torch.Size([162, 1024])
+2023-05-11 15:25:32,357 - mmfewshot - INFO - 00933/998 feats shape - torch.Size([480, 1024])
+2023-05-11 15:25:32,663 - mmfewshot - INFO - 00934/998 feats shape - torch.Size([486, 1024])
+2023-05-11 15:25:32,897 - mmfewshot - INFO - 00935/998 feats shape - torch.Size([246, 1024])
+2023-05-11 15:25:33,226 - mmfewshot - INFO - 00936/998 feats shape - torch.Size([252, 1024])
+2023-05-11 15:25:33,486 - mmfewshot - INFO - 00937/998 feats shape - torch.Size([237, 1024])
+2023-05-11 15:25:33,804 - mmfewshot - INFO - 00938/998 feats shape - torch.Size([192, 1024])
+2023-05-11 15:25:34,127 - mmfewshot - INFO - 00939/998 feats shape - torch.Size([276, 1024])
+2023-05-11 15:25:34,380 - mmfewshot - INFO - 00940/998 feats shape - torch.Size([198, 1024])
+2023-05-11 15:25:34,723 - mmfewshot - INFO - 00941/998 feats shape - torch.Size([345, 1024])
+2023-05-11 15:25:35,023 - mmfewshot - INFO - 00942/998 feats shape - torch.Size([81, 1024])
+2023-05-11 15:25:35,332 - mmfewshot - INFO - 00943/998 feats shape - torch.Size([111, 1024])
+2023-05-11 15:25:35,596 - mmfewshot - INFO - 00944/998 feats shape - torch.Size([78, 1024])
+2023-05-11 15:25:35,873 - mmfewshot - INFO - 00945/998 feats shape - torch.Size([426, 1024])
+2023-05-11 15:25:36,297 - mmfewshot - INFO - 00946/998 feats shape - torch.Size([249, 1024])
+2023-05-11 15:25:36,691 - mmfewshot - INFO - 00947/998 feats shape - torch.Size([345, 1024])
+2023-05-11 15:25:36,955 - mmfewshot - INFO - 00948/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:25:37,235 - mmfewshot - INFO - 00949/998 feats shape - torch.Size([90, 1024])
+2023-05-11 15:25:37,575 - mmfewshot - INFO - 00950/998 feats shape - torch.Size([111, 1024])
+2023-05-11 15:25:37,888 - mmfewshot - INFO - 00951/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:25:38,257 - mmfewshot - INFO - 00952/998 feats shape - torch.Size([300, 1024])
+2023-05-11 15:25:38,710 - mmfewshot - INFO - 00953/998 feats shape - torch.Size([246, 1024])
+2023-05-11 15:25:39,135 - mmfewshot - INFO - 00954/998 feats shape - torch.Size([111, 1024])
+2023-05-11 15:25:39,475 - mmfewshot - INFO - 00955/998 feats shape - torch.Size([393, 1024])
+2023-05-11 15:25:39,829 - mmfewshot - INFO - 00956/998 feats shape - torch.Size([366, 1024])
+2023-05-11 15:25:40,192 - mmfewshot - INFO - 00957/998 feats shape - torch.Size([255, 1024])
+2023-05-11 15:25:40,531 - mmfewshot - INFO - 00958/998 feats shape - torch.Size([231, 1024])
+2023-05-11 15:25:40,840 - mmfewshot - INFO - 00959/998 feats shape - torch.Size([249, 1024])
+2023-05-11 15:25:41,119 - mmfewshot - INFO - 00960/998 feats shape - torch.Size([285, 1024])
+2023-05-11 15:25:41,501 - mmfewshot - INFO - 00961/998 feats shape - torch.Size([216, 1024])
+2023-05-11 15:25:41,830 - mmfewshot - INFO - 00962/998 feats shape - torch.Size([330, 1024])
+2023-05-11 15:25:42,078 - mmfewshot - INFO - 00963/998 feats shape - torch.Size([339, 1024])
+2023-05-11 15:25:42,380 - mmfewshot - INFO - 00964/998 feats shape - torch.Size([669, 1024])
+2023-05-11 15:25:42,683 - mmfewshot - INFO - 00965/998 feats shape - torch.Size([252, 1024])
+2023-05-11 15:25:43,038 - mmfewshot - INFO - 00966/998 feats shape - torch.Size([240, 1024])
+2023-05-11 15:25:43,314 - mmfewshot - INFO - 00967/998 feats shape - torch.Size([81, 1024])
+2023-05-11 15:25:43,599 - mmfewshot - INFO - 00968/998 feats shape - torch.Size([189, 1024])
+2023-05-11 15:25:43,893 - mmfewshot - INFO - 00969/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:25:44,240 - mmfewshot - INFO - 00970/998 feats shape - torch.Size([132, 1024])
+2023-05-11 15:25:44,579 - mmfewshot - INFO - 00971/998 feats shape - torch.Size([249, 1024])
+2023-05-11 15:25:44,970 - mmfewshot - INFO - 00972/998 feats shape - torch.Size([249, 1024])
+2023-05-11 15:25:45,279 - mmfewshot - INFO - 00973/998 feats shape - torch.Size([147, 1024])
+2023-05-11 15:25:45,593 - mmfewshot - INFO - 00974/998 feats shape - torch.Size([375, 1024])
+2023-05-11 15:25:45,934 - mmfewshot - INFO - 00975/998 feats shape - torch.Size([204, 1024])
+2023-05-11 15:25:46,275 - mmfewshot - INFO - 00976/998 feats shape - torch.Size([132, 1024])
+2023-05-11 15:25:46,591 - mmfewshot - INFO - 00977/998 feats shape - torch.Size([225, 1024])
+2023-05-11 15:25:46,902 - mmfewshot - INFO - 00978/998 feats shape - torch.Size([129, 1024])
+2023-05-11 15:25:47,333 - mmfewshot - INFO - 00979/998 feats shape - torch.Size([243, 1024])
+2023-05-11 15:25:47,616 - mmfewshot - INFO - 00980/998 feats shape - torch.Size([264, 1024])
+2023-05-11 15:25:47,914 - mmfewshot - INFO - 00981/998 feats shape - torch.Size([132, 1024])
+2023-05-11 15:25:48,256 - mmfewshot - INFO - 00982/998 feats shape - torch.Size([201, 1024])
+2023-05-11 15:25:48,623 - mmfewshot - INFO - 00983/998 feats shape - torch.Size([93, 1024])
+2023-05-11 15:25:49,103 - mmfewshot - INFO - 00984/998 feats shape - torch.Size([288, 1024])
+2023-05-11 15:25:49,474 - mmfewshot - INFO - 00985/998 feats shape - torch.Size([117, 1024])
+2023-05-11 15:25:49,839 - mmfewshot - INFO - 00986/998 feats shape - torch.Size([177, 1024])
+2023-05-11 15:25:50,104 - mmfewshot - INFO - 00987/998 feats shape - torch.Size([234, 1024])
+2023-05-11 15:25:50,441 - mmfewshot - INFO - 00988/998 feats shape - torch.Size([156, 1024])
+2023-05-11 15:25:50,743 - mmfewshot - INFO - 00989/998 feats shape - torch.Size([321, 1024])
+2023-05-11 15:25:51,198 - mmfewshot - INFO - 00990/998 feats shape - torch.Size([198, 1024])
+2023-05-11 15:25:51,549 - mmfewshot - INFO - 00991/998 feats shape - torch.Size([123, 1024])
+2023-05-11 15:25:51,854 - mmfewshot - INFO - 00992/998 feats shape - torch.Size([267, 1024])
+2023-05-11 15:25:52,157 - mmfewshot - INFO - 00993/998 feats shape - torch.Size([96, 1024])
+2023-05-11 15:25:52,438 - mmfewshot - INFO - 00994/998 feats shape - torch.Size([108, 1024])
+2023-05-11 15:25:52,771 - mmfewshot - INFO - 00995/998 feats shape - torch.Size([156, 1024])
+2023-05-11 15:25:53,075 - mmfewshot - INFO - 00996/998 feats shape - torch.Size([207, 1024])
+2023-05-11 15:25:53,534 - mmfewshot - INFO - 00997/998 feats shape - torch.Size([423, 1024])

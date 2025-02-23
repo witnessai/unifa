@@ -1,0 +1,436 @@
+## GASD测试
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.300
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.497
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.319
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.165
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.336
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.383
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.241
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.461
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.548
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.655
+
+ evaluation of FEW_SHOT_CLASSES_3  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=15.76s).
+Accumulating evaluation results...
+DONE (t=5.45s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.185
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.307
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.200
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.070
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.183
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.230
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.269
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.472
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.580
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.697
+
+ evaluation of ZERO_SHOT_CLASSES_3  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=26.58s).
+Accumulating evaluation results...
+DONE (t=12.80s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.039
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.079
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.034
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.016
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.032
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.055
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.348
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.348
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.348
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.172
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.352
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.440
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.613
+
+ evaluation of  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=215.23s).
+Accumulating evaluation results...
+DONE (t=54.38s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.266
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.442
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.282
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.142
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.294
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.339
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.417
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.417
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.417
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.238
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.452
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.542
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.656
+
++---------------+-------+--------------+-------+----------------+-------+
+| category      | AP    | category     | AP    | category       | AP    |
++---------------+-------+--------------+-------+----------------+-------+
+| person        | 0.491 | bicycle      | 0.243 | car            | 0.368 |
+| motorcycle    | 0.343 | airplane     | 0.073 | bus            | 0.526 |
+| train         | 0.251 | truck        | 0.257 | boat           | 0.217 |
+| traffic light | 0.268 | fire hydrant | 0.597 | stop sign      | 0.611 |
+| parking meter | 0.114 | bench        | 0.170 | bird           | 0.285 |
+| cat           | 0.319 | dog          | 0.384 | horse          | 0.470 |
+| sheep         | 0.443 | cow          | 0.463 | elephant       | 0.598 |
+| bear          | 0.360 | zebra        | 0.598 | giraffe        | 0.638 |
+| backpack      | 0.129 | umbrella     | 0.272 | handbag        | 0.078 |
+| tie           | 0.000 | suitcase     | 0.029 | frisbee        | 0.019 |
+| skis          | 0.149 | snowboard    | 0.125 | sports ball    | 0.385 |
+| kite          | 0.374 | baseball bat | 0.248 | baseball glove | 0.345 |
+| skateboard    | 0.378 | surfboard    | 0.290 | tennis racket  | 0.429 |
+| bottle        | 0.280 | wine glass   | 0.323 | cup            | 0.316 |
+| fork          | 0.043 | knife        | 0.108 | spoon          | 0.080 |
+| bowl          | 0.305 | banana       | 0.184 | apple          | 0.000 |
+| sandwich      | 0.050 | orange       | 0.254 | broccoli       | 0.172 |
+| carrot        | 0.000 | hot dog      | 0.021 | pizza          | 0.450 |
+| donut         | 0.348 | cake         | 0.234 | chair          | 0.204 |
+| couch         | 0.301 | potted plant | 0.198 | bed            | 0.353 |
+| dining table  | 0.187 | toilet       | 0.077 | tv             | 0.449 |
+| laptop        | 0.439 | mouse        | 0.237 | remote         | 0.250 |
+| keyboard      | 0.287 | cell phone   | 0.239 | microwave      | 0.478 |
+| oven          | 0.288 | toaster      | 0.032 | sink           | 0.217 |
+| refrigerator  | 0.359 | book         | 0.086 | clock          | 0.459 |
+| vase          | 0.298 | scissors     | 0.214 | teddy bear     | 0.000 |
+| hair drier    | 0.001 | toothbrush   | 0.085 | None           | None  |
++---------------+-------+--------------+-------+----------------+-------+
+OrderedDict([('BASE_CLASSES bbox_mAP', 0.3), ('BASE_CLASSES bbox_mAP_50', 0.497), ('BASE_CLASSES bbox_mAP_75', 0.319), ('BASE_CLASSES bbox_mAP_s', 0.165), ('BASE_CLASSES bbox_mAP_m', 0.336), ('BASE_CLASSES bbox_mAP_l', 0.383), ('BASE_CLASSES bbox_mAP_copypaste', '0.300 0.497 0.319 0.165 0.336 0.383'), ('FEW_SHOT_CLASSES_3 bbox_mAP', 0.185), ('FEW_SHOT_CLASSES_3 bbox_mAP_50', 0.307), ('FEW_SHOT_CLASSES_3 bbox_mAP_75', 0.2), ('FEW_SHOT_CLASSES_3 bbox_mAP_s', 0.07), ('FEW_SHOT_CLASSES_3 bbox_mAP_m', 0.183), ('FEW_SHOT_CLASSES_3 bbox_mAP_l', 0.23), ('FEW_SHOT_CLASSES_3 bbox_mAP_copypaste', '0.185 0.307 0.200 0.070 0.183 0.230'), ('ZERO_SHOT_CLASSES_3 bbox_mAP', 0.039), ('ZERO_SHOT_CLASSES_3 bbox_mAP_50', 0.079), ('ZERO_SHOT_CLASSES_3 bbox_mAP_75', 0.034), ('ZERO_SHOT_CLASSES_3 bbox_mAP_s', 0.016), ('ZERO_SHOT_CLASSES_3 bbox_mAP_m', 0.032), ('ZERO_SHOT_CLASSES_3 bbox_mAP_l', 0.055), ('ZERO_SHOT_CLASSES_3 bbox_mAP_copypaste', '0.039 0.079 0.034 0.016 0.032 0.055'), ('bbox_mAP', 0.266), ('bbox_mAP_50', 0.442), ('bbox_mAP_75', 0.282), ('bbox_mAP_s', 0.142), ('bbox_mAP_m', 0.294), ('bbox_mAP_l', 0.339), ('bbox_mAP_copypaste', '0.266 0.442 0.282 0.142 0.294 0.339')])
+
+## ASD测试
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.000
+
+ evaluation of FEW_SHOT_CLASSES_3  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=6.13s).
+Accumulating evaluation results...
+DONE (t=2.11s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.243
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.410
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.259
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.120
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.260
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.288
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.269
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.472
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.580
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.697
+
+ evaluation of ZERO_SHOT_CLASSES_3  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=8.34s).
+Accumulating evaluation results...
+DONE (t=3.62s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.096
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.195
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.087
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.065
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.094
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.117
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.335
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.335
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.335
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.169
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.342
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.421
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.596
+
+ evaluation of  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=28.70s).
+Accumulating evaluation results...
+DONE (t=8.99s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.033
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.059
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.034
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.018
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.035
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.040
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.076
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.076
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.076
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.043
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.078
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.097
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.123
+
++---------------+-------+--------------+-------+----------------+-------+
+| category      | AP    | category     | AP    | category       | AP    |
++---------------+-------+--------------+-------+----------------+-------+
+| person        | 0.000 | bicycle      | 0.000 | car            | 0.000 |
+| motorcycle    | 0.000 | airplane     | 0.226 | bus            | 0.000 |
+| train         | 0.293 | truck        | 0.000 | boat           | 0.000 |
+| traffic light | 0.000 | fire hydrant | 0.000 | stop sign      | 0.000 |
+| parking meter | 0.145 | bench        | 0.000 | bird           | 0.000 |
+| cat           | 0.433 | dog          | 0.000 | horse          | 0.000 |
+| sheep         | 0.000 | cow          | 0.000 | elephant       | 0.000 |
+| bear          | 0.484 | zebra        | nan   | giraffe        | 0.000 |
+| backpack      | 0.000 | umbrella     | 0.000 | handbag        | 0.000 |
+| tie           | 0.000 | suitcase     | 0.052 | frisbee        | 0.100 |
+| skis          | 0.000 | snowboard    | 0.186 | sports ball    | 0.000 |
+| kite          | 0.000 | baseball bat | 0.000 | baseball glove | 0.000 |
+| skateboard    | 0.000 | surfboard    | 0.000 | tennis racket  | 0.000 |
+| bottle        | 0.000 | wine glass   | 0.000 | cup            | 0.000 |
+| fork          | 0.064 | knife        | 0.000 | spoon          | 0.000 |
+| bowl          | 0.000 | banana       | 0.000 | apple          | 0.000 |
+| sandwich      | 0.111 | orange       | 0.000 | broccoli       | 0.000 |
+| carrot        | 0.000 | hot dog      | 0.041 | pizza          | 0.000 |
+| donut         | 0.000 | cake         | 0.000 | chair          | 0.000 |
+| couch         | 0.000 | potted plant | 0.000 | bed            | 0.000 |
+| dining table  | 0.000 | toilet       | 0.126 | tv             | 0.000 |
+| laptop        | 0.000 | mouse        | 0.290 | remote         | 0.000 |
+| keyboard      | 0.000 | cell phone   | 0.000 | microwave      | 0.000 |
+| oven          | 0.000 | toaster      | 0.046 | sink           | 0.000 |
+| refrigerator  | 0.000 | book         | 0.000 | clock          | 0.000 |
+| vase          | 0.000 | scissors     | 0.000 | teddy bear     | 0.000 |
+| hair drier    | 0.016 | toothbrush   | 0.000 | None           | None  |
++---------------+-------+--------------+-------+----------------+-------+
+OrderedDict([('BASE_CLASSES bbox_mAP', 0.0), ('BASE_CLASSES bbox_mAP_50', 0.0), ('BASE_CLASSES bbox_mAP_75', 0.0), ('BASE_CLASSES bbox_mAP_s', 0.0), ('BASE_CLASSES bbox_mAP_m', 0.0), ('BASE_CLASSES bbox_mAP_l', 0.0), ('BASE_CLASSES bbox_mAP_copypaste', '0.000 0.000 0.000 0.000 0.000 0.000'), ('FEW_SHOT_CLASSES_3 bbox_mAP', 0.243), ('FEW_SHOT_CLASSES_3 bbox_mAP_50', 0.41), ('FEW_SHOT_CLASSES_3 bbox_mAP_75', 0.259), ('FEW_SHOT_CLASSES_3 bbox_mAP_s', 0.12), ('FEW_SHOT_CLASSES_3 bbox_mAP_m', 0.26), ('FEW_SHOT_CLASSES_3 bbox_mAP_l', 0.288), ('FEW_SHOT_CLASSES_3 bbox_mAP_copypaste', '0.243 0.410 0.259 0.120 0.260 0.288'), ('ZERO_SHOT_CLASSES_3 bbox_mAP', 0.096), ('ZERO_SHOT_CLASSES_3 bbox_mAP_50', 0.195), ('ZERO_SHOT_CLASSES_3 bbox_mAP_75', 0.087), ('ZERO_SHOT_CLASSES_3 bbox_mAP_s', 0.065), ('ZERO_SHOT_CLASSES_3 bbox_mAP_m', 0.094), ('ZERO_SHOT_CLASSES_3 bbox_mAP_l', 0.117), ('ZERO_SHOT_CLASSES_3 bbox_mAP_copypaste', '0.096 0.195 0.087 0.065 0.094 0.117'), ('bbox_mAP', 0.033), ('bbox_mAP_50', 0.059), ('bbox_mAP_75', 0.034), ('bbox_mAP_s', 0.018), ('bbox_mAP_m', 0.035), ('bbox_mAP_l', 0.04), ('bbox_mAP_copypaste', '0.033 0.059 0.034 0.018 0.035 0.040')])
+
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.300
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.497
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.319
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.165
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.336
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.383
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.241
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.461
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.548
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.655
+
+ evaluation of FEW_SHOT_CLASSES_3  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=13.39s).
+Accumulating evaluation results...
+DONE (t=5.24s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.185
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.307
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.200
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.070
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.183
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.230
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.269
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.472
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.580
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.697
+
+ evaluation of ZERO_SHOT_CLASSES_3  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=22.48s).
+Accumulating evaluation results...
+DONE (t=11.69s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.043
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.086
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.040
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.020
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.037
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.058
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.335
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.335
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.335
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.168
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.341
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.421
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.595
+
+ evaluation of  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=203.56s).
+Accumulating evaluation results...
+DONE (t=60.28s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.266
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.442
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.283
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.143
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.295
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.339
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.416
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.416
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.416
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.237
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.451
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.540
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.654
+
++---------------+-------+--------------+-------+----------------+-------+
+| category      | AP    | category     | AP    | category       | AP    |
++---------------+-------+--------------+-------+----------------+-------+
+| person        | 0.491 | bicycle      | 0.243 | car            | 0.368 |
+| motorcycle    | 0.343 | airplane     | 0.081 | bus            | 0.526 |
+| train         | 0.251 | truck        | 0.257 | boat           | 0.217 |
+| traffic light | 0.268 | fire hydrant | 0.597 | stop sign      | 0.611 |
+| parking meter | 0.114 | bench        | 0.170 | bird           | 0.285 |
+| cat           | 0.319 | dog          | 0.384 | horse          | 0.470 |
+| sheep         | 0.443 | cow          | 0.463 | elephant       | 0.598 |
+| bear          | 0.360 | zebra        | 0.598 | giraffe        | 0.638 |
+| backpack      | 0.129 | umbrella     | 0.272 | handbag        | 0.078 |
+| tie           | 0.000 | suitcase     | 0.025 | frisbee        | 0.030 |
+| skis          | 0.149 | snowboard    | 0.125 | sports ball    | 0.385 |
+| kite          | 0.374 | baseball bat | 0.248 | baseball glove | 0.345 |
+| skateboard    | 0.378 | surfboard    | 0.290 | tennis racket  | 0.429 |
+| bottle        | 0.280 | wine glass   | 0.324 | cup            | 0.317 |
+| fork          | 0.043 | knife        | 0.108 | spoon          | 0.080 |
+| bowl          | 0.305 | banana       | 0.184 | apple          | 0.000 |
+| sandwich      | 0.060 | orange       | 0.254 | broccoli       | 0.172 |
+| carrot        | 0.000 | hot dog      | 0.020 | pizza          | 0.450 |
+| donut         | 0.348 | cake         | 0.234 | chair          | 0.204 |
+| couch         | 0.301 | potted plant | 0.198 | bed            | 0.353 |
+| dining table  | 0.187 | toilet       | 0.083 | tv             | 0.449 |
+| laptop        | 0.439 | mouse        | 0.237 | remote         | 0.250 |
+| keyboard      | 0.287 | cell phone   | 0.239 | microwave      | 0.478 |
+| oven          | 0.288 | toaster      | 0.032 | sink           | 0.217 |
+| refrigerator  | 0.359 | book         | 0.086 | clock          | 0.459 |
+| vase          | 0.298 | scissors     | 0.214 | teddy bear     | 0.000 |
+| hair drier    | 0.003 | toothbrush   | 0.085 | None           | None  |
++---------------+-------+--------------+-------+----------------+-------+
+OrderedDict([('BASE_CLASSES bbox_mAP', 0.3), ('BASE_CLASSES bbox_mAP_50', 0.497), ('BASE_CLASSES bbox_mAP_75', 0.319), ('BASE_CLASSES bbox_mAP_s', 0.165), ('BASE_CLASSES bbox_mAP_m', 0.336), ('BASE_CLASSES bbox_mAP_l', 0.383), ('BASE_CLASSES bbox_mAP_copypaste', '0.300 0.497 0.319 0.165 0.336 0.383'), ('FEW_SHOT_CLASSES_3 bbox_mAP', 0.185), ('FEW_SHOT_CLASSES_3 bbox_mAP_50', 0.307), ('FEW_SHOT_CLASSES_3 bbox_mAP_75', 0.2), ('FEW_SHOT_CLASSES_3 bbox_mAP_s', 0.07), ('FEW_SHOT_CLASSES_3 bbox_mAP_m', 0.183), ('FEW_SHOT_CLASSES_3 bbox_mAP_l', 0.23), ('FEW_SHOT_CLASSES_3 bbox_mAP_copypaste', '0.185 0.307 0.200 0.070 0.183 0.230'), ('ZERO_SHOT_CLASSES_3 bbox_mAP', 0.043), ('ZERO_SHOT_CLASSES_3 bbox_mAP_50', 0.086), ('ZERO_SHOT_CLASSES_3 bbox_mAP_75', 0.04), ('ZERO_SHOT_CLASSES_3 bbox_mAP_s', 0.02), ('ZERO_SHOT_CLASSES_3 bbox_mAP_m', 0.037), ('ZERO_SHOT_CLASSES_3 bbox_mAP_l', 0.058), ('ZERO_SHOT_CLASSES_3 bbox_mAP_copypaste', '0.043 0.086 0.040 0.020 0.037 0.058'), ('bbox_mAP', 0.266), ('bbox_mAP_50', 0.442), ('bbox_mAP_75', 0.283), ('bbox_mAP_s', 0.143), ('bbox_mAP_m', 0.295), ('bbox_mAP_l', 0.339), ('bbox_mAP_copypaste', '0.266 0.442 0.283 0.143 0.295 0.339')])
+
+
+
+
+
+
+## 73+80
+Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.300
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.497
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.319
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.165
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.336
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.383
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.420
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.241
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.461
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.548
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.656
+
+ evaluation of FEW_SHOT_CLASSES_3  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=13.38s).
+Accumulating evaluation results...
+DONE (t=5.50s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.185
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.307
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.200
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.070
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.183
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.230
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.456
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.269
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.472
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.580
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.697
+
+ evaluation of ZERO_SHOT_CLASSES_3  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=13.85s).
+Accumulating evaluation results...
+DONE (t=5.04s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.040
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.078
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.037
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.021
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.039
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.049
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.255
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.255
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.255
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.101
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.247
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.330
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.440
+
+ evaluation of  class
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=197.37s).
+Accumulating evaluation results...
+DONE (t=55.45s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.266
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=1000 ] = 0.442
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=1000 ] = 0.283
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.143
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.295
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.338
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.409
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=300 ] = 0.409
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=1000 ] = 0.409
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=1000 ] = 0.232
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=1000 ] = 0.443
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=1000 ] = 0.532
+ Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.641
+
++---------------+-------+--------------+-------+----------------+-------+
+| category      | AP    | category     | AP    | category       | AP    |
++---------------+-------+--------------+-------+----------------+-------+
+| person        | 0.491 | bicycle      | 0.243 | car            | 0.368 |
+| motorcycle    | 0.343 | airplane     | 0.111 | bus            | 0.526 |
+| train         | 0.251 | truck        | 0.257 | boat           | 0.217 |
+| traffic light | 0.268 | fire hydrant | 0.597 | stop sign      | 0.611 |
+| parking meter | 0.114 | bench        | 0.170 | bird           | 0.285 |
+| cat           | 0.319 | dog          | 0.384 | horse          | 0.470 |
+| sheep         | 0.443 | cow          | 0.463 | elephant       | 0.598 |
+| bear          | 0.360 | zebra        | 0.598 | giraffe        | 0.638 |
+| backpack      | 0.129 | umbrella     | 0.272 | handbag        | 0.078 |
+| tie           | 0.000 | suitcase     | 0.015 | frisbee        | 0.024 |
+| skis          | 0.149 | snowboard    | 0.125 | sports ball    | 0.385 |
+| kite          | 0.374 | baseball bat | 0.248 | baseball glove | 0.345 |
+| skateboard    | 0.378 | surfboard    | 0.290 | tennis racket  | 0.429 |
+| bottle        | 0.280 | wine glass   | 0.324 | cup            | 0.317 |
+| fork          | 0.043 | knife        | 0.108 | spoon          | 0.080 |
+| bowl          | 0.305 | banana       | 0.184 | apple          | 0.000 |
+| sandwich      | 0.058 | orange       | 0.254 | broccoli       | 0.172 |
+| carrot        | 0.000 | hot dog      | 0.015 | pizza          | 0.451 |
+| donut         | 0.348 | cake         | 0.234 | chair          | 0.204 |
+| couch         | 0.301 | potted plant | 0.198 | bed            | 0.353 |
+| dining table  | 0.187 | toilet       | 0.053 | tv             | 0.449 |
+| laptop        | 0.439 | mouse        | 0.237 | remote         | 0.250 |
+| keyboard      | 0.287 | cell phone   | 0.239 | microwave      | 0.478 |
+| oven          | 0.288 | toaster      | 0.032 | sink           | 0.217 |
+| refrigerator  | 0.359 | book         | 0.086 | clock          | 0.459 |
+| vase          | 0.298 | scissors     | 0.214 | teddy bear     | 0.000 |
+| hair drier    | 0.002 | toothbrush   | 0.085 | None           | None  |
++---------------+-------+--------------+-------+----------------+-------+
+OrderedDict([('BASE_CLASSES bbox_mAP', 0.3), ('BASE_CLASSES bbox_mAP_50', 0.497), ('BASE_CLASSES bbox_mAP_75', 0.319), ('BASE_CLASSES bbox_mAP_s', 0.165), ('BASE_CLASSES bbox_mAP_m', 0.336), ('BASE_CLASSES bbox_mAP_l', 0.383), ('BASE_CLASSES bbox_mAP_copypaste', '0.300 0.497 0.319 0.165 0.336 0.383'), ('FEW_SHOT_CLASSES_3 bbox_mAP', 0.185), ('FEW_SHOT_CLASSES_3 bbox_mAP_50', 0.307), ('FEW_SHOT_CLASSES_3 bbox_mAP_75', 0.2), ('FEW_SHOT_CLASSES_3 bbox_mAP_s', 0.07), ('FEW_SHOT_CLASSES_3 bbox_mAP_m', 0.183), ('FEW_SHOT_CLASSES_3 bbox_mAP_l', 0.23), ('FEW_SHOT_CLASSES_3 bbox_mAP_copypaste', '0.185 0.307 0.200 0.070 0.183 0.230'), ('ZERO_SHOT_CLASSES_3 bbox_mAP', 0.04), ('ZERO_SHOT_CLASSES_3 bbox_mAP_50', 0.078), ('ZERO_SHOT_CLASSES_3 bbox_mAP_75', 0.037), ('ZERO_SHOT_CLASSES_3 bbox_mAP_s', 0.021), ('ZERO_SHOT_CLASSES_3 bbox_mAP_m', 0.039), ('ZERO_SHOT_CLASSES_3 bbox_mAP_l', 0.049), ('ZERO_SHOT_CLASSES_3 bbox_mAP_copypaste', '0.040 0.078 0.037 0.021 0.039 0.049'), ('bbox_mAP', 0.266), ('bbox_mAP_50', 0.442), ('bbox_mAP_75', 0.283), ('bbox_mAP_s', 0.143), ('bbox_mAP_m', 0.295), ('bbox_mAP_l', 0.338), ('bbox_mAP_copypaste', '0.266 0.442 0.283 0.143 0.295 0.338')])
